@@ -1,0 +1,5 @@
+/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_66.root
+/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_67.root
+/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_68.root
+/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_69.root
+/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_7.root

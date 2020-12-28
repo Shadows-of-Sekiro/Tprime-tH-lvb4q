@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+
+hadd SingleTop_Full_Selection_26-12-20.root   /eos/uscms/store/user/achhetri/PhaseII_MainTree/Background_v3_Samples/ST_s-channel_4f_leptonDecays_v3/ST_s-channel_4f_leptonDecays*Full_Selection_26-12-20.root    /eos/uscms/store/user/achhetri/PhaseII_MainTree/Background_v3_Samples/ST_t-channel_antitop_4f_inclusiveDecays_v3/ST_t-channel_antitop_4f_inclusiveDecays*Full_Selection_26-12-20.root    /eos/uscms/store/user/achhetri/PhaseII_MainTree/Background_v3_Samples/ST_t-channel_top_4f_inclusiveDecays_v3/ST_t-channel_top_4f_inclusiveDecays*Full_Selection_26-12-20.root    /eos/uscms/store/user/achhetri/PhaseII_MainTree/Background_v3_Samples/ST_tW_antitop_5f_inclusiveDecays_v3/ST_tW_antitop_5f_inclusiveDecays*Full_Selection_26-12-20.root    /eos/uscms/store/user/achhetri/PhaseII_MainTree/Background_v3_Samples/ST_tW_top_5f_inclusiveDecays_v3/ST_tW_top_5f_inclusiveDecays*Full_Selection_26-12-20.root    

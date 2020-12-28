@@ -1,0 +1,6679 @@
+Starting job on  Sat Dec 26 20:19:24 CET 2020
+Running on: Linux b7s03n0274.cern.ch 3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+System software: CentOS Linux release 7.9.2009 (Core) 
+PWD: /pool/condor/dir_31472
+Resetting caches
+
+
+-------------------------------
+
+
+Setting up py2-climate version 0.4.6-pafccj:  
+
+Finding a value for TAUOLAPP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauolapp/1.1.5-pafccj4
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauolapp/1.1.5-pafccj4/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauolapp/1.1.5-pafccj4/include
+
+
+* Library check [OK]       for libTauolaCxxInterface
+* Library check [OK]       for libTauolaFortran
+* Library check [OK]       for libTauolaTauSpinner
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauolapp/1.1.5-pafccj4/include
+
+
+Setting up tauolapp version 1.1.5-pafccj4:  
+
+Finding a value for PYDATA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia6/426-pafccj
+
+
+-------------------------------
+
+
+Setting up pydata version 426-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-numexpr version 2.6.9-nmpfii2:  
+
+Finding a value for CVS2GIT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cvs2git/5419-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cvs2git/5419-pafccj/bin
+
+
+Setting up cvs2git version 5419-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-urllib3 version 1.25.2:  
+
+Finding a value for QTDESIGNER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtDesigner
+
+
+* Library check [OK]       for libQtDesigner  
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtDesigner
+
+
+Setting up qtdesigner version 4.8.7-pafccj:  
+
+
+* Library check [OK]       for libGeom        
+
+
+-------------------------------
+
+
+Setting up rootgeom version 6.14.09-pafccj3:  
+
+
+* Library check [OK]       for libcurand      
+
+
+-------------------------------
+
+
+Setting up cuda-curand version 10.1.105-pafccj2:  
+
+Finding a value for PY2_TABLES_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-tables/3.4.4-nmpfii2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-tables/3.4.4-nmpfii2/bin
+
+
+Setting up py2-tables version 3.4.4-nmpfii2:  
+
+
+* Library check [OK]       for libROOTVecOps  
+
+
+-------------------------------
+
+
+Setting up rootvecops version 6.14.09-pafccj3:  
+
+
+* Library check [OK]       for libGui         
+
+
+-------------------------------
+
+
+Setting up rootgui version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-gitpython version 2.1.11-pafccj:  
+
+Finding a value for BOOST_PYTHON_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/include
+
+
+* Library check [OK]       for libboost_python27
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/include
+
+
+Setting up boost_python version 1.67.0-pafccj:  
+
+Finding a value for MADGRAPH5AMCATNLO_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/madgraph5amcatnlo/2.6.0-pafccj7
+
+
+-------------------------------
+
+Runtime path settings for ROOT_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/madgraph5amcatnlo/2.6.0-pafccj7
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/madgraph5amcatnlo/2.6.0-pafccj7
+
+
+Setting up madgraph5amcatnlo version 2.6.0-pafccj7:  
+
+Finding a value for BLACKHAT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/blackhat/0.9.9-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/blackhat/0.9.9-pafccj/lib/blackhat
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/blackhat/0.9.9-pafccj/include
+
+
+* Library check [OK]       for libAmpl_eval   
+* Library check [OK]       for libBG          
+* Library check [OK]       for libBH          
+* Library check [OK]       for libBHcore      
+* Library check [OK]       for libCutPart     
+* Library check [OK]       for libCut_wCI     
+* Library check [OK]       for libCuteval     
+* Library check [OK]       for libIntegrals   
+* Library check [OK]       for libInterface   
+* Library check [OK]       for libOLA         
+* Library check [OK]       for libRatPart     
+* Library check [OK]       for libRateval     
+* Library check [OK]       for libSpinors     
+* Library check [OK]       for libassembly    
+* Library check [OK]       for libratext      
+
+
+-------------------------------
+
+Runtime path settings for WORKER_DATA_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/blackhat/0.9.9-pafccj/share/blackhat/datafiles/
+
+
+Setting up blackhat version 0.9.9-pafccj:  
+
+Finding a value for SHERPA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3/bin
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3/lib/SHERPA-MC
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3/include/SHERPA-MC
+
+
+* Library check [OK]       for libSherpaMain  
+* Library check [OK]       for libToolsMath   
+* Library check [OK]       for libToolsOrg    
+
+
+-------------------------------
+
+Runtime path settings for SHERPA_LIBRARY_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3/lib/SHERPA-MC
+
+Runtime path settings for SHERPA_SHARE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3/share/SHERPA-MC
+
+Runtime path settings for SHERPA_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3/include/SHERPA-MC
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3/include/SHERPA-MC
+
+Runtime path settings for CMSSW_FWLITE_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sherpa/2.2.8-pafccj3/include
+
+
+Setting up sherpa version 2.2.8-pafccj3:  
+
+Finding a value for PY2_SYMPY_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-sympy/1.4
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-sympy/1.4/bin
+
+
+Setting up py2-sympy version 1.4:  
+
+Finding a value for GBL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gbl/V02-01-03-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gbl/V02-01-03-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gbl/V02-01-03-pafccj/include
+
+
+* Library check [OK]       for libGBL         
+
+
+-------------------------------
+
+
+Setting up gbl version V02-01-03-pafccj:  
+
+Finding a value for JIMMY_HEADERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jimmy/4.2-pafccj3
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jimmy/4.2-pafccj3/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jimmy/4.2-pafccj3/include
+
+
+Setting up jimmy_headers version 4.2-pafccj3:  
+
+Finding a value for PY2_FLAWFINDER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-flawfinder/2.0.8-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-flawfinder/2.0.8-pafccj/bin
+
+
+Setting up py2-flawfinder version 2.0.8-pafccj:  
+
+Finding a value for PY2_FUTURE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-future/0.17.1-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-future/0.17.1-pafccj/bin
+
+
+Setting up py2-future version 0.17.1-pafccj:  
+
+Finding a value for PY2_HISTOGRAMMAR_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-histogrammar/1.0.9-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-histogrammar/1.0.9-pafccj/bin
+
+
+Setting up py2-histogrammar version 1.0.9-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-wcwidth version 0.1.7-pafccj:  
+
+
+* Library check [OK]       for libEve         
+
+
+-------------------------------
+
+
+Setting up rooteve version 6.14.09-pafccj3:  
+
+Finding a value for VDT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/vdt/0.4.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/vdt/0.4.0-pafccj/lib
+
+
+* Library check [OK]       for libvdt         
+
+
+-------------------------------
+
+
+Setting up vdt version 0.4.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-prwlock version 0.4.0-pafccj:  
+
+Finding a value for PY2_DABLOOMS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-dablooms/0.9.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-dablooms/0.9.1-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-dablooms/0.9.1-pafccj/include
+
+
+* Library check [OK]       for libdablooms    
+
+
+-------------------------------
+
+
+Setting up dablooms version 0.9.1-pafccj:  
+
+Finding a value for PCRE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pcre/8.37-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pcre/8.37-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pcre/8.37-pafccj/include
+
+
+* Library check [OK]       for libpcre        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pcre/8.37-pafccj/include
+
+
+Setting up pcre version 8.37-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-python-dateutil version 2.8.0-pafccj:  
+
+Finding a value for PY2_PYFLAKES_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pyflakes/2.1.1
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pyflakes/2.1.1/bin
+
+
+Setting up py2-pyflakes version 2.1.1:  
+
+Finding a value for FASTJET_CONTRIB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet-contrib/1.033-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet-contrib/1.033-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet-contrib/1.033-pafccj/include
+
+
+* Library check [OK]       for libEnergyCorrelator
+* Library check [OK]       for libGenericSubtractor
+* Library check [OK]       for libJetCleanser 
+* Library check [OK]       for libJetFFMoments
+* Library check [OK]       for libNsubjettiness
+* Library check [OK]       for libScJet       
+* Library check [OK]       for libSubjetCounting
+* Library check [OK]       for libVariableR   
+
+
+-------------------------------
+
+
+Setting up fastjet-contrib-archive version 1.033-pafccj:  
+
+Finding a value for CURL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/curl/7.59.0-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/curl/7.59.0-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/curl/7.59.0-pafccj/lib
+
+
+* Library check [OK]       for libcurl        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/curl/7.59.0-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/curl/7.59.0-pafccj/bin
+
+
+Setting up curl version 7.59.0-pafccj:  
+
+Finding a value for PY2_NOSE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-nose/1.3.7-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-nose/1.3.7-pafccj/bin
+
+
+Setting up py2-nose version 1.3.7-pafccj:  
+
+Finding a value for PYQUEN_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pyquen/1.5.3-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pyquen/1.5.3-pafccj/lib
+
+
+* Library check [OK]       for libpyquen      
+
+
+-------------------------------
+
+
+Setting up pyquen version 1.5.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-schema version 0.7.0:  
+
+Finding a value for VECGEOM_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vecgeom/v00.05.00-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vecgeom/v00.05.00-pafccj/lib
+
+
+* Library check [OK]       for libvecgeom     
+* Library check [OK]       for libusolids     
+
+
+-------------------------------
+
+
+Setting up vecgeom version v00.05.00-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-ipaddress version 1.0.22-pafccj:  
+
+
+* Library check [OK]       for libHist        
+* Library check [OK]       for libMatrix      
+
+
+-------------------------------
+
+
+Setting up roothistmatrix version 6.14.09-pafccj3:  
+
+Finding a value for PY2_BOKEH_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-bokeh/1.1.0-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-bokeh/1.1.0-pafccj2/bin
+
+
+Setting up py2-bokeh version 1.1.0-pafccj2:  
+
+
+* Library check [OK]       for libRooStats    
+
+
+-------------------------------
+
+
+Setting up roostats version 6.14.09-pafccj3:  
+
+
+* Library check [OK]       for libqd_f_main   
+
+
+-------------------------------
+
+
+Setting up qd_f_main version 2.3.13-pafccj:  
+
+Finding a value for LIBXML2_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libxml2/2.9.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libxml2/2.9.1-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libxml2/2.9.1-pafccj/include/libxml2
+
+
+* Library check [OK]       for libxml2        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libxml2/2.9.1-pafccj/include/libxml2
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libxml2/2.9.1-pafccj/bin
+
+
+Setting up libxml2 version 2.9.1-pafccj:  
+
+Finding a value for CC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/bin/cc
+
+
+-------------------------------
+
+
+Setting up gcc-analyzer-ccompiler version 1.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-markupsafe version 1.1.1:  
+
+Finding a value for PY2_NBCONVERT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-nbconvert/5.4.1-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-nbconvert/5.4.1-pafccj/bin
+
+
+Setting up py2-nbconvert version 5.4.1-pafccj:  
+
+
+* Library check [OK]       for libFoam        
+
+
+-------------------------------
+
+
+Setting up rootfoam version 6.14.09-pafccj3:  
+
+Finding a value for PY2_CHARDET_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-chardet/3.0.4-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-chardet/3.0.4-pafccj/bin
+
+
+Setting up py2-chardet version 3.0.4-pafccj:  
+
+Finding a value for CMSSWDATA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms
+
+Finding a value for CMSSW_DATA_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms
+
+
+-------------------------------
+
+Runtime path settings for CMSSW_DATA_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms
+
+Runtime path settings for CMSSW_SEARCH_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-CalibCalorimetry-CaloMiscalibTools/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-CalibCalorimetry-EcalTrivialCondModules/V00-02-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-CalibPPS-ESProducers/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-CalibTracker-SiPixelESProducers/V02-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-CalibTracker-SiStripDCS/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-Calibration-Tools/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-CondFormats-JetMETObjects/V01-00-03
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-CondTools-SiPhase2Tracker/V00-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-Configuration-Generator/V01-00-03
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-DQM-DTMonitorClient/V00-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-DQM-PhysicsHWW/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-DQM-SiStripMonitorClient/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-DataFormats-PatCandidates/V01-00-01
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-DetectorDescription-Schema/V02-02-01
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-EgammaAnalysis-ElectronTools/V00-01-04-nmpfii
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-EventFilter-L1TRawToDigi/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-FWCore-Modules/V00-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-FastSimulation-MaterialEffects/V05-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-FastSimulation-TrackingRecHitProducer/V01-00-03
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-Fireworks-Geometry/V07-05-04
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-GeneratorInterface-EvtGenInterface/V02-00-11
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-GeneratorInterface-ReggeGribovPartonMCInterface/V00-00-02
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-HLTrigger-JetMET/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-IOPool-Input/V00-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-L1Trigger-L1TCalorimeter/V01-00-22
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-L1Trigger-L1TGlobal/V00-00-07
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-L1Trigger-L1THGCal/V01-00-12
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-L1Trigger-L1TMuon/V01-01-03
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-L1Trigger-RPCTrigger/V00-15-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-MagneticField-Interpolation/V01-00-02
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-PhysicsTools-NanoAOD/V01-00-05-nmpfii
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-PhysicsTools-PatUtils/V00-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoBTag-CTagging/V01-00-03
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoBTag-Combined/V01-01-04
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoBTag-SecondaryVertex/V02-00-04
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoBTag-SoftLepton/V01-00-01
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoCTPPS-TotemRPLocal/V00-02-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoEgamma-ElectronIdentification/V01-01-03-pafccj
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoEgamma-PhotonIdentification/V01-00-06
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoHI-HiJetAlgos/V01-00-01
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoJets-JetProducers/V05-10-20
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoLocalCalo-EcalDeadChannelRecoveryAlgos/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoMET-METPUSubtraction/V01-00-03
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoMuon-MuonIdentification/V01-12-05
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoParticleFlow-PFBlockProducer/V02-04-02
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoParticleFlow-PFProducer/V16-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoParticleFlow-PFTracking/V13-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoTauTag-TrainingFiles/V00-01-01
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-RecoTracker-FinalTrackSelectors/V01-00-07
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-SLHCUpgradeSimulations-Geometry/V01-00-10
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-SimG4CMS-Calo/V03-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-SimG4CMS-Forward/V02-03-18
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-SimTracker-SiStripDigitizer/V01-00-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-SimTransport-HectorProducer/V01-00-01
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-SimTransport-PPSProtonTransport/V00-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-SimTransport-TotemRPProtonTransportParametrization/V00-01-00
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/data-Validation-Geometry/V00-07-00
+
+
+Setting up cmsswdata version 3.0-pafccj6:  
+
+Finding a value for STARLIGHT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/starlight/r193-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/starlight/r193-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/starlight/r193-pafccj/include
+
+
+* Library check [OK]       for libStarlib     
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/starlight/r193-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/starlight/r193-pafccj/bin
+
+
+Setting up starlight version r193-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-docopt version 0.6.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-typing version 3.6.6-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-ply version 3.11-pafccj:  
+
+
+-------------------------------
+
+
+Setting up x11 version R6:  
+
+Finding a value for OPENBLAS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/OpenBLAS/0.3.5-nmpfii2
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/OpenBLAS/0.3.5-nmpfii2/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/OpenBLAS/0.3.5-nmpfii2/lib
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/OpenBLAS/0.3.5-nmpfii2/bin
+
+
+* Library check [OK]       for libopenblas    
+
+
+-------------------------------
+
+Runtime variable OPENBLAS_NUM_THREADS set to "1"
+
+
+Setting up openblas version 0.3.5-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-pluggy version 0.9.0:  
+
+
+-------------------------------
+
+
+Setting up py2-cryptography version 2.6.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pillow version 5.4.1-pafccj:  
+
+Finding a value for PYCLANG_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0
+
+
+-------------------------------
+
+
+Setting up pyclang version 7.1.0:  
+
+
+-------------------------------
+
+
+Setting up py2-typing_extensions version 3.7.2-pafccj:  
+
+
+* Library check [OK]       for lib            
+
+
+-------------------------------
+
+
+Setting up boost_iostreams version 1.67.0-pafccj:  
+
+Finding a value for PHOTOS_HEADERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/photos/215.5-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/photos/215.5-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/photos/215.5-pafccj/include
+
+
+Setting up photos_headers version 215.5-pafccj:  
+
+Finding a value for GEANT4DATA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external
+
+
+-------------------------------
+
+Runtime path settings for G4SAIDXSDATA:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-G4SAIDDATA/1.1/data/G4SAIDDATA1.1
+
+Runtime path settings for G4ENSDFSTATEDATA:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-G4ENSDFSTATE/2.2/data/G4ENSDFSTATE2.2
+
+Runtime path settings for G4NEUTRONXSDATA:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-G4NEUTRONXS/1.4/data/G4NEUTRONXS1.4
+
+Runtime path settings for G4LEVELGAMMADATA:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-G4PhotonEvaporation/5.2/data/PhotonEvaporation5.2
+
+Runtime path settings for G4LEDATA:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-G4EMLOW/7.3/data/G4EMLOW7.3
+
+Runtime path settings for G4NEUTRONHPDATA:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-G4NDL/4.5/data/G4NDL4.5
+
+Runtime path settings for G4RADIOACTIVEDATA:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-G4RadioactiveDecay/5.2/data/RadioactiveDecay5.2
+
+Runtime path settings for G4ABLADATA:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-G4ABLA/3.0/data/G4ABLA3.0
+
+
+Setting up geant4data version 1.0-omkpbe:  
+
+
+-------------------------------
+
+
+Setting up py2-parsimonious version 0.8.1-pafccj2:  
+
+
+-------------------------------
+
+
+Setting up py2-beautifulsoup4 version 4.7.1-pafccj:  
+
+Finding a value for IGPROF_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/igprof/5.9.16-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/igprof/5.9.16-pafccj/lib
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/igprof/5.9.16-pafccj/bin
+
+
+Setting up igprof version 5.9.16-pafccj:  
+
+Finding a value for GOSAM_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosam/2.0.4-33b41ed-pafccj3
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosam/2.0.4-33b41ed-pafccj3/bin
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosam/2.0.4-33b41ed-pafccj3/bin
+
+
+Setting up gosam version 2.0.4-33b41ed-pafccj3:  
+
+
+* Library check [OK]       for libSpectrum    
+
+
+-------------------------------
+
+
+Setting up rootspectrum version 6.14.09-pafccj3:  
+
+Finding a value for EVTGEN_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/evtgen/1.6.0-pafccj4
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/evtgen/1.6.0-pafccj4/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/evtgen/1.6.0-pafccj4/include
+
+
+* Library check [OK]       for libEvtGen      
+* Library check [OK]       for libEvtGenExternal
+
+
+-------------------------------
+
+Runtime variable EVTGENDATA set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/evtgen/1.6.0-pafccj4/share"
+
+
+Setting up evtgen version 1.6.0-pafccj4:  
+
+Finding a value for OPENLDAP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openldap/2.4.45-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openldap/2.4.45-pafccj/lib
+
+
+-------------------------------
+
+
+Setting up openldap version 2.4.45-pafccj:  
+
+Finding a value for PY2_FS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-fs/0.5.5a1-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-fs/0.5.5a1-pafccj2/bin
+
+
+Setting up py2-fs version 0.5.5a1-pafccj2:  
+
+Finding a value for CASCADE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cascade/2.2.04-pafccj3
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cascade/2.2.04-pafccj3/lib
+
+
+* Library check [OK]       for libcascade_merged
+
+
+-------------------------------
+
+Runtime variable CASCADE_PDFPATH set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cascade/2.2.04-pafccj3/share"
+
+
+Setting up cascade version 2.2.04-pafccj3:  
+
+Finding a value for PY2_AVRO_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-avro/1.8.2-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-avro/1.8.2-pafccj/bin
+
+
+Setting up py2-avro version 1.8.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-six version 1.12.0-pafccj:  
+
+Finding a value for GCC_CCOMPILER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj
+
+Finding a value for CC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/bin/gcc
+
+
+-------------------------------
+
+
+Setting up gcc-ccompiler version 7.0.0-pafccj:  
+
+
+* Library check [OK]       for libSmatrix     
+
+
+-------------------------------
+
+
+Setting up rootsmatrix version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-psutil version 5.6.2:  
+
+
+-------------------------------
+
+
+Setting up py2-terminado version 0.8.2:  
+
+Finding a value for HEPPDT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/heppdt/3.03.00-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/heppdt/3.03.00-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/heppdt/3.03.00-pafccj/include
+
+
+* Library check [OK]       for libHepPDT      
+* Library check [OK]       for libHepPID      
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/heppdt/3.03.00-pafccj/include
+
+Runtime variable HEPPDT_PARAM_PATH set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/heppdt/3.03.00-pafccj"
+
+
+Setting up heppdt version 3.03.00-pafccj:  
+
+Finding a value for PY2_LINT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-lint/0.25.1-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-lint/0.25.1-pafccj/bin
+
+
+Setting up py2-lint version 0.25.1-pafccj:  
+
+Finding a value for ROOTRFLX_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3
+
+
+-------------------------------
+
+Runtime variable GENREFLEX set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/bin/genreflex"
+
+
+Setting up rootrflx version 6.14.09-pafccj3:  
+
+Finding a value for CASCADE_HEADERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cascade/2.2.04-pafccj3
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cascade/2.2.04-pafccj3/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cascade/2.2.04-pafccj3/include
+
+
+Setting up cascade_headers version 2.2.04-pafccj3:  
+
+Finding a value for XTENSOR_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xtensor/0.20.1
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xtensor/0.20.1/include
+
+
+-------------------------------
+
+
+Setting up xtensor version 0.20.1:  
+
+Finding a value for PY2_AUTOPEP8_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-autopep8/1.4.4
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-autopep8/1.4.4/bin
+
+
+Setting up py2-autopep8 version 1.4.4:  
+
+Finding a value for BOOST_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/include
+
+
+* Library check [OK]       for libboost_thread
+* Library check [OK]       for libboost_signals
+* Library check [OK]       for libboost_date_time
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/include
+
+Runtime path settings for CMSSW_FWLITE_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/include
+
+
+Setting up boost version 1.67.0-pafccj:  
+
+Finding a value for MILLEPEDE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/millepede/V04-03-08-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/millepede/V04-03-08-pafccj/bin
+
+
+Setting up millepede version V04-03-08-pafccj:  
+
+Finding a value for DCAP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dcap/2.47.8-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dcap/2.47.8-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dcap/2.47.8-pafccj/include
+
+
+* Library check [OK]       for libdcap        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dcap/2.47.8-pafccj/include
+
+
+Setting up dcap version 2.47.8-pafccj:  
+
+Finding a value for PROFESSOR2_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/professor2/2.2.2-pafccj6
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/professor2/2.2.2-pafccj6/lib
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/professor2/2.2.2-pafccj6/bin
+
+
+Setting up professor2 version 2.2.2-pafccj6:  
+
+
+-------------------------------
+
+
+Setting up py2-hep_ml version 0.6.0-nmpfii2:  
+
+Finding a value for KTJET_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ktjet/1.06-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ktjet/1.06-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ktjet/1.06-pafccj/include
+
+
+* Library check [OK]       for libKtEvent     
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ktjet/1.06-pafccj/include
+
+
+Setting up ktjet version 1.06-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-idna version 2.8-pafccj:  
+
+Finding a value for FASTJET_CONTRIB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet-contrib/1.033-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet-contrib/1.033-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet-contrib/1.033-pafccj/include
+
+
+* Library check [OK]       for libfastjetcontribfragile
+
+
+-------------------------------
+
+
+Setting up fastjet-contrib version 1.033-pafccj:  
+
+Finding a value for CGAL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cgal/4.2-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cgal/4.2-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cgal/4.2-pafccj/include
+
+
+* Library check [OK]       for libCGAL_Core   
+* Library check [OK]       for libCGAL        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cgal/4.2-pafccj/include
+
+
+Setting up cgal version 4.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-keras-preprocessing version 1.0.9-nmpfii2:  
+
+
+* Library check [OK]       for libboost_chrono
+
+
+-------------------------------
+
+
+Setting up boost_chrono version 1.67.0-pafccj:  
+
+Finding a value for PY2_THEANO_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-Theano/1.0.4-nmpfii2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-Theano/1.0.4-nmpfii2/bin
+
+
+Setting up py2-theano version 1.0.4-nmpfii2:  
+
+Finding a value for PY2_GOOGLEPACKAGES_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-googlePackages/1.0-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-googlePackages/1.0-pafccj2/bin
+
+
+Setting up py2-googlepackages version 1.0-pafccj2:  
+
+
+-------------------------------
+
+
+Setting up py2-llvmlite version 0.28.0-pafccj:  
+
+
+* Library check [OK]       for libGpad        
+* Library check [OK]       for libGraf        
+
+
+-------------------------------
+
+
+Setting up rootgpad version 6.14.09-pafccj3:  
+
+Finding a value for TOPREX_HEADERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/toprex/4.23-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/toprex/4.23-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/toprex/4.23-pafccj/include
+
+
+Setting up toprex_headers version 4.23-pafccj:  
+
+Finding a value for PY2_JUPYTER_CLIENT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-jupyter_client/5.2.4-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-jupyter_client/5.2.4-pafccj/bin
+
+
+Setting up py2-jupyter_client version 5.2.4-pafccj:  
+
+
+* Library check [OK]       for libnvgraph     
+
+
+-------------------------------
+
+
+Setting up cuda-nvgraph version 10.1.105-pafccj2:  
+
+Finding a value for GCC_F77COMPILER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj
+
+Finding a value for FC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/bin/gfortran
+
+
+* Library check [OK]       for libgfortran    
+* Library check [OK]       for libm           
+
+
+-------------------------------
+
+
+Setting up gcc-f77compiler version 7.0.0-pafccj:  
+
+Finding a value for PACPARSER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pacparser/1.3.5-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pacparser/1.3.5-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pacparser/1.3.5-pafccj/include
+
+
+* Library check [OK]       for libpacparser   
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pacparser/1.3.5-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pacparser/1.3.5-pafccj/bin
+
+
+Setting up pacparser version 1.3.5-pafccj:  
+
+Finding a value for PY2_FLAKE8_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-flake8/3.7.7
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-flake8/3.7.7/bin
+
+
+Setting up py2-flake8 version 3.7.7:  
+
+Finding a value for PY2_PYBIND11_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pybind11/2.2.4-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pybind11/2.2.4-pafccj/include/python2.7
+
+
+-------------------------------
+
+
+Setting up py2-pybind11 version 2.2.4-pafccj:  
+
+
+* Library check [OK]       for libxla_compiled_cpu_function
+
+
+-------------------------------
+
+
+Setting up tensorflow-xla_compiled_cpu_function version 1.6.0-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-pytest version 4.4.1:  
+
+
+-------------------------------
+
+
+Setting up py2-downhill version 0.4.0-nmpfii2:  
+
+Finding a value for MAKE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gmake/4.2.1-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gmake/4.2.1-pafccj/bin
+
+
+Setting up gmake version 4.2.1-pafccj:  
+
+Finding a value for SQLITE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sqlite/3.22.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sqlite/3.22.0-pafccj/lib
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sqlite/3.22.0-pafccj/bin
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sqlite/3.22.0-pafccj/include
+
+
+* Library check [OK]       for libsqlite3     
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sqlite/3.22.0-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sqlite/3.22.0-pafccj/bin
+
+
+Setting up sqlite version 3.22.0-pafccj:  
+
+Finding a value for DD4HEP_CORE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dd4hep/v01-10x-pafccj6
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dd4hep/v01-10x-pafccj6/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dd4hep/v01-10x-pafccj6/include
+
+
+* Library check [OK]       for libDDCore      
+* Library check [OK]       for libDDParsers   
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dd4hep/v01-10x-pafccj6/bin
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dd4hep/v01-10x-pafccj6/include
+
+
+Setting up dd4hep-core version v01-10x-pafccj6:  
+
+Finding a value for LWTNN_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lwtnn/2.4-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lwtnn/2.4-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lwtnn/2.4-pafccj/include
+
+
+* Library check [OK]       for liblwtnn       
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lwtnn/2.4-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lwtnn/2.4-pafccj/bin
+
+
+Setting up lwtnn version 2.4-pafccj:  
+
+Finding a value for FC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/distcc/3.2rc1-pafccj/bin/gfortran
+
+
+-------------------------------
+
+
+Setting up distcc-f77compiler version 3.2rc1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-widgetsnbextension version 3.4.2-pafccj3:  
+
+Finding a value for FRONTIER_CLIENT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/frontier_client/2.8.20-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/frontier_client/2.8.20-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/frontier_client/2.8.20-pafccj/lib
+
+
+* Library check [OK]       for libfrontier_client
+
+
+-------------------------------
+
+Runtime variable FRONTIER_CLIENT set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/frontier_client/2.8.20-pafccj/"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/frontier_client/2.8.20-pafccj/include
+
+
+Setting up frontier_client version 2.8.20-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-funcsigs version 1.0.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pycparser version 2.19-pafccj:  
+
+Finding a value for PY2_JSONSCHEMA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-jsonschema/2.6.0-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-jsonschema/2.6.0-pafccj/bin
+
+
+Setting up py2-jsonschema version 2.6.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-requests version 2.21.0-pafccj2:  
+
+Finding a value for GIFLIB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/giflib/4.2.3-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/giflib/4.2.3-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/giflib/4.2.3-pafccj/include
+
+
+* Library check [OK]       for libgif         
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/giflib/4.2.3-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/giflib/4.2.3-pafccj/bin
+
+
+Setting up giflib version 4.2.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-h5py version 2.9.0-nmpfii2:  
+
+Finding a value for VDT_HEADERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/vdt/0.4.0-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/vdt/0.4.0-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/vdt/0.4.0-pafccj/include
+
+
+Setting up vdt_headers version 0.4.0-pafccj:  
+
+Finding a value for GDBM_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gdbm/1.10-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gdbm/1.10-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gdbm/1.10-pafccj/include
+
+
+* Library check [OK]       for libgdbm        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gdbm/1.10-pafccj/include
+
+
+Setting up gdbm version 1.10-pafccj:  
+
+
+* Library check [OK]       for libtensorflow_cc
+
+
+-------------------------------
+
+
+Setting up tensorflow-cc version 1.6.0-pafccj4:  
+
+
+* Library check [OK]       for libtensorflow_framework
+
+
+-------------------------------
+
+
+Setting up tensorflow-framework version 1.6.0-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-matplotlib version 2.2.4-pafccj2:  
+
+Finding a value for PROFESSOR_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/professor/1.4.0-pafccj6
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/professor/1.4.0-pafccj6/bin
+
+
+Setting up professor version 1.4.0-pafccj6:  
+
+
+-------------------------------
+
+
+Setting up py2-uncertainties version 3.0.3-nmpfii2:  
+
+Finding a value for PY2_NUMPY_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-numpy/1.16.2-nmpfii2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-numpy/1.16.2-nmpfii2/bin
+
+
+Setting up py2-numpy version 1.16.2-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-ipywidgets version 7.4.2-pafccj3:  
+
+Finding a value for VECGEOM_INTERFACE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vecgeom/v00.05.00-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vecgeom/v00.05.00-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vecgeom/v00.05.00-pafccj/include
+
+
+Setting up vecgeom_interface version v00.05.00-pafccj:  
+
+Finding a value for HECTOR_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hector/1.3.4_patch1-pafccj6
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hector/1.3.4_patch1-pafccj6/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hector/1.3.4_patch1-pafccj6/include
+
+
+* Library check [OK]       for libHector      
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hector/1.3.4_patch1-pafccj6/include
+
+
+Setting up hector version 1.3.4_patch1-pafccj6:  
+
+
+* Library check [OK]       for libG4FR        
+* Library check [OK]       for libG4modeling  
+* Library check [OK]       for libG4RayTracer 
+* Library check [OK]       for libG4Tree      
+* Library check [OK]       for libG4visHepRep 
+* Library check [OK]       for libG4vis_management
+* Library check [OK]       for libG4visXXX    
+* Library check [OK]       for libG4VRML      
+* Library check [OK]       for libG4GMocren   
+* Library check [OK]       for libG4zlib      
+
+
+-------------------------------
+
+
+Setting up geant4vis version 10.4.3-pafccj:  
+
+
+* Library check [OK]       for libGed         
+
+
+-------------------------------
+
+
+Setting up rootged version 6.14.09-pafccj3:  
+
+
+* Library check [OK]       for libGeomPainter 
+
+
+-------------------------------
+
+
+Setting up rootgeompainter version 6.14.09-pafccj3:  
+
+Finding a value for LIBFFI_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libffi/3.2.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libffi/3.2.1-pafccj/lib64
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libffi/3.2.1-pafccj/include
+
+
+* Library check [OK]       for libffi         
+
+
+-------------------------------
+
+
+Setting up libffi version 3.2.1-pafccj:  
+
+Finding a value for DAVIX_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/davix/0.6.7-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/davix/0.6.7-pafccj/lib64
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/davix/0.6.7-pafccj/include/davix
+
+
+* Library check [OK]       for libdavix       
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/davix/0.6.7-pafccj/bin
+
+
+Setting up davix version 0.6.7-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-more-itertools version 5.0.0-pafccj:  
+
+Finding a value for YODA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/yoda/1.7.4-pafccj6
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/yoda/1.7.4-pafccj6/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/yoda/1.7.4-pafccj6/include
+
+
+* Library check [OK]       for libYODA        
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/yoda/1.7.4-pafccj6/bin
+
+
+Setting up yoda version 1.7.4-pafccj6:  
+
+
+-------------------------------
+
+
+Setting up geant4 version 10.4.3-pafccj:  
+
+Finding a value for HERWIG_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwig/6.521-pafccj3
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwig/6.521-pafccj3/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwig/6.521-pafccj3/include
+
+
+* Library check [OK]       for libherwig      
+* Library check [OK]       for libherwig_dummy
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwig/6.521-pafccj3/include
+
+
+Setting up herwig version 6.521-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-rep version 0.6.6-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-smmap2 version 2.0.5-pafccj:  
+
+Finding a value for MPFR_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mpfr-static/3.1.3-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mpfr-static/3.1.3-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mpfr-static/3.1.3-pafccj/lib
+
+
+* Library check [OK]       for libmpfr        
+
+
+-------------------------------
+
+
+Setting up mpfr version 3.1.3-pafccj:  
+
+Finding a value for PYQT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pyqt/4.11.4-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pyqt/4.11.4-pafccj/bin
+
+
+Setting up pyqt version 4.11.4-pafccj:  
+
+Finding a value for HDF5_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hdf5/1.8.17-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hdf5/1.8.17-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hdf5/1.8.17-pafccj/include
+
+
+* Library check [OK]       for libhdf5        
+* Library check [OK]       for libhdf5_cpp    
+* Library check [OK]       for libhdf5_hl     
+* Library check [OK]       for libhdf5_hl_cpp 
+
+
+-------------------------------
+
+
+Setting up hdf5 version 1.8.17-pafccj:  
+
+Finding a value for XROOTD_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/include/xrootd
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/include/xrootd/private
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/lib64
+
+
+* Library check [OK]       for libXrdUtils    
+* Library check [OK]       for libXrdClient   
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/include/xrootd/private
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/bin
+
+Runtime path settings for PYTHON27PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/lib/python2.7/site-packages
+
+
+Setting up xrootd version 4.8.5-pafccj:  
+
+
+* Library check [OK]       for libGCocoa      
+
+
+-------------------------------
+
+
+Setting up rootx11 version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-pybrain version 0.3.3-nmpfii2:  
+
+Finding a value for GCC_CHECKER_PLUGIN_ROOT:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc-checker-plugin/1.2-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc-checker-plugin/1.2-pafccj/include
+
+
+-------------------------------
+
+
+Setting up gcc-checker-plugin version 1.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-jinja2 version 2.10.1:  
+
+
+-------------------------------
+
+
+Setting up py2-oamap version 0.12.4-nmpfii2:  
+
+Finding a value for GRAPHVIZ_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/graphviz/2.38.0-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/graphviz/2.38.0-pafccj/bin
+
+
+Setting up graphviz version 2.38.0-pafccj:  
+
+Finding a value for FC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/bin/gfortran
+
+
+-------------------------------
+
+
+Setting up llvm-f77compiler version 7.1.0:  
+
+
+-------------------------------
+
+
+Setting up py2-root_numpy version 4.8.0-pafccj5:  
+
+Finding a value for RIVET_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/rivet/2.7.0-pafccj5
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/rivet/2.7.0-pafccj5/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/rivet/2.7.0-pafccj5/include
+
+
+* Library check [OK]       for libRivet       
+
+
+-------------------------------
+
+Runtime path settings for PDFPATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/rivet/2.7.0-pafccj5/share
+
+Runtime path settings for RIVET_ANALYSIS_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/rivet/2.7.0-pafccj5/lib
+
+Runtime path settings for TEXMFHOME:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/rivet/2.7.0-pafccj5/share/Rivet/texmf
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/rivet/2.7.0-pafccj5/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/rivet/2.7.0-pafccj5/bin
+
+
+Setting up rivet version 2.7.0-pafccj5:  
+
+
+* Library check [OK]       for libcublas      
+
+
+-------------------------------
+
+
+Setting up cuda-cublas version 10.1.105-pafccj2:  
+
+
+* Library check [OK]       for libRGL         
+
+
+-------------------------------
+
+
+Setting up rootrgl version 6.14.09-pafccj3:  
+
+Finding a value for GCC_ATOMIC_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj
+
+
+* Library check [OK]       for libatomic      
+
+
+-------------------------------
+
+
+Setting up gcc-atomic version 7.0.0-pafccj:  
+
+
+* Library check [OK]       for libnvidia-ml   
+
+
+-------------------------------
+
+
+Setting up cuda-nvml version 10.1.105-pafccj2:  
+
+
+* Library check [OK]       for libDDG4-static 
+
+
+-------------------------------
+
+
+Setting up dd4hep-geant4 version v01-10x-pafccj6:  
+
+Finding a value for GDB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gdb/8.1-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gdb/8.1-pafccj/bin
+
+
+Setting up gdb version 8.1-pafccj:  
+
+Finding a value for PY2_JUPYTER_CORE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-jupyter_core/4.4.0-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-jupyter_core/4.4.0-pafccj2/bin
+
+
+Setting up py2-jupyter_core version 4.4.0-pafccj2:  
+
+
+-------------------------------
+
+Runtime path settings for PYTHON3PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-tool-conf/45.0-pafccj12/lib/python3.6/site-packages
+
+Runtime path settings for PYTHON27PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-tool-conf/45.0-pafccj12/lib/python2.7/site-packages
+
+
+Setting up python-paths version 1.0:  
+
+
+-------------------------------
+
+
+Setting up py2-pathlib2 version 2.3.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pyzmq version 17.1.2-pafccj:  
+
+
+* Library check [OK]       for libboost_regex 
+
+
+-------------------------------
+
+
+Setting up boost_regex version 1.67.0-pafccj:  
+
+Finding a value for PY2_ONNX_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-onnx/1.5.0-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-onnx/1.5.0-pafccj/bin
+
+
+Setting up py2-onnx version 1.5.0-pafccj:  
+
+Finding a value for HEPMC_HEADERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hepmc/2.06.07-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hepmc/2.06.07-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hepmc/2.06.07-pafccj/include
+
+
+Setting up hepmc_headers version 2.06.07-pafccj:  
+
+Finding a value for LLVM_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/lib64
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/include
+
+
+* Library check [OK]       for libclang       
+
+
+-------------------------------
+
+
+Setting up llvm version 7.1.0:  
+
+
+* Library check [OK]       for libMathCore    
+
+
+-------------------------------
+
+
+Setting up rootmathcore version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-gitdb2 version 2.0.5-pafccj:  
+
+
+* Library check [OK]       for libEG          
+
+
+-------------------------------
+
+
+Setting up rooteg version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-jedi version 0.13.3:  
+
+
+-------------------------------
+
+
+Setting up py2-ptyprocess version 0.6.0-pafccj:  
+
+Finding a value for PY2_PLAC_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-plac/1.0.0-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-plac/1.0.0-pafccj/bin
+
+
+Setting up py2-plac version 1.0.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-scipy version 1.2.1-nmpfii2:  
+
+
+* Library check [OK]       for libtf_aot_runtime
+
+
+-------------------------------
+
+
+Setting up tensorflow-runtime version 1.6.0-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-pysqlite version 2.8.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-lxml version 4.3.3:  
+
+Finding a value for GEANT4CORE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4/10.4.3-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4/10.4.3-pafccj/lib
+
+Finding a value for G4LIB:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4/10.4.3-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4/10.4.3-pafccj/include/Geant4
+
+
+* Library check [OK]       for libG4digits_hits
+* Library check [OK]       for libG4error_propagation
+* Library check [OK]       for libG4event     
+* Library check [OK]       for libG4geometry  
+* Library check [OK]       for libG4global    
+* Library check [OK]       for libG4graphics_reps
+* Library check [OK]       for libG4intercoms 
+* Library check [OK]       for libG4interfaces
+* Library check [OK]       for libG4materials 
+* Library check [OK]       for libG4parmodels 
+* Library check [OK]       for libG4particles 
+* Library check [OK]       for libG4persistency
+* Library check [OK]       for libG4physicslists
+* Library check [OK]       for libG4processes 
+* Library check [OK]       for libG4readout   
+* Library check [OK]       for libG4run       
+* Library check [OK]       for libG4tracking  
+* Library check [OK]       for libG4track     
+* Library check [OK]       for libG4analysis  
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4/10.4.3-pafccj/include/Geant4
+
+
+Setting up geant4core version 10.4.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-python-cjson version 1.2.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-packaging version 19.0-pafccj:  
+
+Finding a value for THEPEG_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/thepeg/2.1.4-pafccj6
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/thepeg/2.1.4-pafccj6/lib/ThePEG
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/thepeg/2.1.4-pafccj6/include
+
+
+* Library check [OK]       for libThePEG      
+* Library check [OK]       for libLesHouches  
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/thepeg/2.1.4-pafccj6/include
+
+Runtime variable THEPEGPATH set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/thepeg/2.1.4-pafccj6/share/ThePEG"
+
+
+Setting up thepeg version 2.1.4-pafccj6:  
+
+Finding a value for PY2_IPYTHON_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-ipython/5.8.0-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-ipython/5.8.0-pafccj2/bin
+
+
+Setting up py2-ipython version 5.8.0-pafccj2:  
+
+
+* Library check [OK]       for libTMVA        
+
+
+-------------------------------
+
+
+Setting up roottmva version 6.14.09-pafccj3:  
+
+Finding a value for DIRE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dire/2.003-pafccj4
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dire/2.003-pafccj4/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dire/2.003-pafccj4/include
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dire/2.003-pafccj4/bin
+
+
+* Library check [OK]       for libdire        
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dire/2.003-pafccj4/bin
+
+
+Setting up dire version 2.003-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-mistune version 0.8.4-pafccj:  
+
+Finding a value for GCC_CXXCOMPILER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj
+
+Finding a value for CXX:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/bin/c++
+
+
+-------------------------------
+
+Runtime path settings for GCC_RUNTIME_LSAN:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib64/libasan.so
+
+Runtime path settings for LD_LIBRARY_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib64
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib
+
+Runtime path settings for GCC_RUNTIME_TSAN:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib64/libtsan.so
+
+Runtime variable SCRAM_CXX11_ABI set to "1"
+
+Runtime path settings for GCC_RUNTIME_UBSAN:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib64/libubsan.so
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/bin
+
+Runtime path settings for GCC_RUNTIME_ASAN:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib64/libasan.so
+
+Runtime variable COMPILER_PATH set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj"
+
+
+Setting up gcc-cxxcompiler version 7.0.0-pafccj:  
+
+Finding a value for DB6_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/db6/6.0.30-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/db6/6.0.30-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/db6/6.0.30-pafccj/include
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/db6/6.0.30-pafccj/bin
+
+
+* Library check [OK]       for libdb          
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/db6/6.0.30-pafccj/bin
+
+
+Setting up db6 version 6.0.30-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-mpld3 version 0.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pyparsing version 2.4.0:  
+
+
+* Library check [OK]       for libboost_unit_test_framework
+
+
+-------------------------------
+
+
+Setting up boost_test version 1.67.0-pafccj:  
+
+Finding a value for OPENSSL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openssl/1.0.2d-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openssl/1.0.2d-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openssl/1.0.2d-pafccj/lib
+
+
+* Library check [OK]       for libssl         
+* Library check [OK]       for libcrypto      
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openssl/1.0.2d-pafccj/include
+
+
+Setting up openssl version 1.0.2d-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-argparse version 1.4.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-thriftpy version 0.3.9-pafccj:  
+
+Finding a value for PY2_LIZARD_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-lizard/1.16.3
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-lizard/1.16.3/bin
+
+
+Setting up py2-lizard version 1.16.3:  
+
+Finding a value for PY2_VIRTUALENV_CLONE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-virtualenv-clone/0.5.3
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-virtualenv-clone/0.5.3/bin
+
+
+Setting up py2-virtualenv-clone version 0.5.3:  
+
+
+-------------------------------
+
+
+Setting up py2-gast version 0.2.2-pafccj:  
+
+
+* Library check [OK]       for libHtml        
+
+
+-------------------------------
+
+
+Setting up roothtml version 6.14.09-pafccj3:  
+
+Finding a value for ORACLE_ADMINDIR:
+
+	Checks [OK] for /etc
+
+
+* Library check [OK]       for libGL          
+* Library check [OK]       for libGLU         
+
+
+-------------------------------
+
+
+Setting up opengl version XFree4.2:  
+
+Finding a value for TCMALLOC_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gperftools/2.6.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gperftools/2.6.1-pafccj/lib
+
+
+* Library check [OK]       for libtcmalloc    
+
+
+-------------------------------
+
+
+Setting up tcmalloc version 2.6.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-cx-oracle version 5.2.1-pafccj2:  
+
+
+* Library check [OK]       for libboost_serialization
+
+
+-------------------------------
+
+
+Setting up boost_serialization version 1.67.0-pafccj:  
+
+Finding a value for CPPUNIT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cppunit/1.40.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cppunit/1.40.1-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cppunit/1.40.1-pafccj/include
+
+
+* Library check [OK]       for libcppunit     
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cppunit/1.40.1-pafccj/include
+
+
+Setting up cppunit version 1.40.1-pafccj:  
+
+Finding a value for CUDA_API_WRAPPERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda-api-wrappers/20180504-pafccj4
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda-api-wrappers/20180504-pafccj4/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda-api-wrappers/20180504-pafccj4/lib
+
+
+* Library check [OK]       for libcuda-api-wrappers
+
+
+-------------------------------
+
+
+Setting up cuda-api-wrappers version 20180504-pafccj4:  
+
+Finding a value for CLHEP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj/include
+
+
+* Library check [OK]       for libCLHEP       
+
+
+-------------------------------
+
+Runtime variable CLHEP_PARAM_PATH set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj/include
+
+Runtime path settings for CMSSW_FWLITE_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj/include
+
+
+Setting up clhep version 2.4.0.0-pafccj:  
+
+
+* Library check [OK]       for libcufft       
+* Library check [OK]       for libcufftw      
+
+
+-------------------------------
+
+
+Setting up cuda-cufft version 10.1.105-pafccj2:  
+
+Finding a value for HLS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hls/2019.08
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hls/2019.08/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hls/2019.08/include
+
+
+Setting up hls version 2019.08:  
+
+
+-------------------------------
+
+
+Setting up py2-grpcio version 1.19.0:  
+
+Finding a value for PY2_MARKDOWN_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-Markdown/3.1
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-Markdown/3.1/bin
+
+
+Setting up py2-markdown version 3.1:  
+
+
+-------------------------------
+
+
+Setting up py2-kiwisolver version 1.1.0:  
+
+
+-------------------------------
+
+
+Setting up py2-singledispatch version 3.4.0.3-pafccj2:  
+
+Finding a value for EIGEN_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/eigen/e4c107b451c52c9ab2d7b7fa4194ee35332916ec-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/eigen/e4c107b451c52c9ab2d7b7fa4194ee35332916ec-pafccj/include/eigen3
+
+
+-------------------------------
+
+
+Setting up eigen version e4c107b451c52c9ab2d7b7fa4194ee35332916ec-pafccj:  
+
+
+* Library check [OK]       for libRint        
+
+
+-------------------------------
+
+
+Setting up rootrint version 6.14.09-pafccj3:  
+
+Finding a value for VALGRIND_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/valgrind/3.13.0-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/valgrind/3.13.0-pafccj/include
+
+
+-------------------------------
+
+Runtime variable VALGRIND_LIB set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/valgrind/3.13.0-pafccj/lib/valgrind"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/valgrind/3.13.0-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/valgrind/3.13.0-pafccj/bin
+
+
+Setting up valgrind version 3.13.0-pafccj:  
+
+Finding a value for FFTW3_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fftw3/3.3.2-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fftw3/3.3.2-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fftw3/3.3.2-pafccj/lib
+
+
+* Library check [OK]       for libfftw3       
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fftw3/3.3.2-pafccj/include
+
+
+Setting up fftw3 version 3.3.2-pafccj:  
+
+
+* Library check [OK]       for libDeviceDescriptions
+* Library check [OK]       for libFed9UDeviceFactory
+
+
+-------------------------------
+
+
+Setting up tkonlineswdb version 4.2.0-1_gcc7-pafccj6:  
+
+
+-------------------------------
+
+
+Setting up py2-mock version 2.0.0-pafccj3:  
+
+Finding a value for CLHEPHEADER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/clhep/2.4.0.0-pafccj/include
+
+
+Setting up clhepheader version 2.4.0.0-pafccj:  
+
+Finding a value for SLOCCOUNT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sloccount/2.26-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sloccount/2.26-pafccj/bin
+
+
+Setting up sloccount version 2.26-pafccj:  
+
+Finding a value for PY2_SETUPTOOLS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-setuptools/28.3.0-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-setuptools/28.3.0-pafccj/bin
+
+
+Setting up py2-setuptools version 28.3.0-pafccj:  
+
+Finding a value for PY2_NBDIME_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-nbdime/1.0.5-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-nbdime/1.0.5-pafccj/bin
+
+
+Setting up py2-nbdime version 1.0.5-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-contextlib2 version 0.5.5:  
+
+Finding a value for PY2_BACKPORTS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-backports/1.0-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-backports/1.0-pafccj2/bin
+
+
+Setting up py2-backports version 1.0-pafccj2:  
+
+Finding a value for UTM_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/utm/utm_0.7.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/utm/utm_0.7.1-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/utm/utm_0.7.1-pafccj/include
+
+
+* Library check [OK]       for libtmeventsetup
+* Library check [OK]       for libtmtable     
+* Library check [OK]       for libtmxsd       
+* Library check [OK]       for libtmgrammar   
+* Library check [OK]       for libtmutil      
+
+
+-------------------------------
+
+Runtime variable UTM_XSD_DIR set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/utm/utm_0.7.1-pafccj"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/utm/utm_0.7.1-pafccj/include
+
+
+Setting up utm version utm_0.7.1-pafccj:  
+
+
+* Library check [OK]       for libGuiHtml     
+
+
+-------------------------------
+
+
+Setting up rootguihtml version 6.14.09-pafccj3:  
+
+Finding a value for LLVM_CXXCOMPILER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0
+
+Finding a value for CXX:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/bin/include-what-you-use
+
+
+-------------------------------
+
+
+Setting up iwyu-cxxcompiler version 7.1.0:  
+
+Finding a value for TBB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tbb/2019_U3-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tbb/2019_U3-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tbb/2019_U3-pafccj/include
+
+
+* Library check [OK]       for libtbb         
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tbb/2019_U3-pafccj/include
+
+
+Setting up tbb version 2019_U3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-backports_abc version 0.5-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-lz4 version 2.1.6-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-cffi version 1.12.3:  
+
+
+-------------------------------
+
+
+Setting up py2-appdirs version 1.4.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-python-ldap version 3.2.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-h5py-cache version 1.0-pafccj:  
+
+Finding a value for OPENLOOPS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openloops/2.1.0-pafccj2
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openloops/2.1.0-pafccj2/lib
+
+
+-------------------------------
+
+Runtime path settings for CMS_OPENLOOPS_PREFIX:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openloops/2.1.0-pafccj2
+
+
+Setting up openloops version 2.1.0-pafccj2:  
+
+Finding a value for LIBPNG_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libpng/1.6.16-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libpng/1.6.16-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libpng/1.6.16-pafccj/include
+
+
+* Library check [OK]       for libpng         
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libpng/1.6.16-pafccj/include
+
+
+Setting up libpng version 1.6.16-pafccj:  
+
+
+* Library check [OK]       for libHistFactory 
+
+
+-------------------------------
+
+
+Setting up histfactory version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-scikit-learn version 0.20.3-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-jupyter version 1.0.0-pafccj3:  
+
+
+* Library check [OK]       for libcusolver    
+
+
+-------------------------------
+
+
+Setting up cuda-cusolver version 10.1.105-pafccj2:  
+
+
+-------------------------------
+
+
+Setting up py2-stevedore version 1.30.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up ofast-flag version 1.0:  
+
+
+-------------------------------
+
+
+Setting up py2-pycurl version 7.43.0.2-pafccj:  
+
+Finding a value for CXX:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/bin/c++
+
+
+-------------------------------
+
+
+Setting up gcc-analyzer-cxxcompiler version 1.2-pafccj:  
+
+Finding a value for DOXYGEN_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/doxygen/1.8.11-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/doxygen/1.8.11-pafccj/bin
+
+
+Setting up doxygen version 1.8.11-pafccj:  
+
+
+-------------------------------
+
+Runtime path settings for INTEL_LICENSE_FILE:
+
+	Checks [OK (but currently missing)] for 28518@lxlicen01.cern.ch,28518@lxlicen02.cern.ch,28518@lxlicen03.cern.ch
+
+
+Setting up intel-license version ICC_SCRAM_VERSION:  
+
+Finding a value for FREETYPE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/freetype/2.5.3-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/freetype/2.5.3-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/freetype/2.5.3-pafccj/lib
+
+
+* Library check [OK]       for libfreetype-cms
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/freetype/2.5.3-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/freetype/2.5.3-pafccj/bin
+
+
+Setting up freetype version 2.5.3-pafccj:  
+
+Finding a value for PROTOBUF_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/protobuf/3.5.2-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/protobuf/3.5.2-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/protobuf/3.5.2-pafccj/lib
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/protobuf/3.5.2-pafccj/bin
+
+
+* Library check [OK]       for libprotobuf    
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/protobuf/3.5.2-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/protobuf/3.5.2-pafccj/bin
+
+
+Setting up protobuf version 3.5.2-pafccj:  
+
+Finding a value for GSL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gsl/2.2.1-nmpfii2
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gsl/2.2.1-nmpfii2/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gsl/2.2.1-nmpfii2/include
+
+
+* Library check [OK]       for libgsl         
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gsl/2.2.1-nmpfii2/include
+
+
+Setting up gsl version 2.2.1-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-mpmath version 1.1.0-pafccj:  
+
+Finding a value for GEANT4STATIC_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4/10.4.3-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4/10.4.3-pafccj/lib/archive
+
+
+* Library check [OK]       for libgeant4-static
+
+
+-------------------------------
+
+
+Setting up geant4static version 10.4.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-absl-py version 0.7.1:  
+
+
+-------------------------------
+
+
+Setting up py2-entrypoints version 0.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-werkzeug version 0.15.2:  
+
+Finding a value for GOOGLE_BENCHMARK_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/google-benchmark/1.4.x-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/google-benchmark/1.4.x-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/google-benchmark/1.4.x-pafccj/include
+
+
+* Library check [OK]       for libbenchmark   
+
+
+-------------------------------
+
+
+Setting up google-benchmark version 1.4.x-pafccj:  
+
+Finding a value for YAML_CPP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/yaml-cpp/0.6.2-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/yaml-cpp/0.6.2-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/yaml-cpp/0.6.2-pafccj/include
+
+
+* Library check [OK]       for libyaml-cpp    
+
+
+-------------------------------
+
+
+Setting up yaml-cpp version 0.6.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-xgboost version 0.82-nmpfii2:  
+
+Finding a value for LIBXSLT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libxslt/1.1.28-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libxslt/1.1.28-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libxslt/1.1.28-pafccj/include/libxslt
+
+
+* Library check [OK]       for libxslt        
+
+
+-------------------------------
+
+
+Setting up libxslt version 1.1.28-pafccj:  
+
+Finding a value for LHAPDF_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lhapdf/6.2.1-pafccj3
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lhapdf/6.2.1-pafccj3/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lhapdf/6.2.1-pafccj3/include
+
+
+* Library check [OK]       for libLHAPDF      
+
+
+-------------------------------
+
+Runtime variable LHAPDF_DATA_PATH set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lhapdf/6.2.1-pafccj3/share/LHAPDF"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lhapdf/6.2.1-pafccj3/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lhapdf/6.2.1-pafccj3/bin
+
+
+Setting up lhapdf version 6.2.1-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-html5lib version 1.0.1-pafccj2:  
+
+
+-------------------------------
+
+
+Setting up py2-simplegeneric version 0.8.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-histbook version 1.2.5-nmpfii2:  
+
+Finding a value for LCOV_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lcov/1.9
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lcov/1.9/bin
+
+
+Setting up lcov version 1.9:  
+
+Finding a value for LIBTIFF_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libtiff/4.0.3-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libtiff/4.0.3-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libtiff/4.0.3-pafccj/include
+
+
+* Library check [OK]       for libtiff        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libtiff/4.0.3-pafccj/include
+
+
+Setting up libtiff version 4.0.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-bottleneck version 1.2.1-nmpfii2:  
+
+Finding a value for PYTHIA6_HEADERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia6/426-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia6/426-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia6/426-pafccj/include
+
+
+Setting up pythia6_headers version 426-pafccj:  
+
+Finding a value for CC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ccache/3.1.8-pafccj/bin/gcc
+
+
+-------------------------------
+
+
+Setting up ccache-ccompiler version 3.1.8-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-ordereddict version 1.1-pafccj:  
+
+Finding a value for OPENMPI_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openmpi/2.1.5-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openmpi/2.1.5-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openmpi/2.1.5-pafccj/include
+
+
+* Library check [OK]       for libmpi         
+* Library check [OK]       for libmpi_cxx     
+
+
+-------------------------------
+
+Runtime variable OPAL_PREFIX set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openmpi/2.1.5-pafccj"
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/openmpi/2.1.5-pafccj/bin
+
+
+Setting up openmpi version 2.1.5-pafccj:  
+
+Finding a value for GMP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gmp-static/6.1.0-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gmp-static/6.1.0-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gmp-static/6.1.0-pafccj/lib
+
+
+* Library check [OK]       for libgmp         
+
+
+-------------------------------
+
+
+Setting up gmp version 6.1.0-pafccj:  
+
+Finding a value for ORACLE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/oracle/12.1.0.2.0-pafccj2
+
+Finding a value for ORACLE_ADMINDIR:
+
+	Checks [OK] for /etc
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/oracle/12.1.0.2.0-pafccj2/lib
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/oracle/12.1.0.2.0-pafccj2/bin
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/oracle/12.1.0.2.0-pafccj2/include
+
+
+* Library check [OK]       for libclntsh      
+
+
+-------------------------------
+
+Runtime variable TNS_ADMIN set to "/etc"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/oracle/12.1.0.2.0-pafccj2/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/oracle/12.1.0.2.0-pafccj2/bin
+
+
+Setting up oracle version 12.1.0.2.0-pafccj2:  
+
+Finding a value for LAPACK_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lapack/3.6.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/lapack/3.6.1-pafccj/lib64
+
+
+-------------------------------
+
+
+Setting up lapack version 3.6.1-pafccj:  
+
+Finding a value for XZ_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xz/5.2.2-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xz/5.2.2-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xz/5.2.2-pafccj/include
+
+
+* Library check [OK]       for liblzma        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xz/5.2.2-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xz/5.2.2-pafccj/bin
+
+
+Setting up xz version 5.2.2-pafccj:  
+
+Finding a value for MCDB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mcdb/1.0.3-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mcdb/1.0.3-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mcdb/1.0.3-pafccj/interface
+
+
+* Library check [OK]       for libmcdb        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mcdb/1.0.3-pafccj/interface
+
+
+Setting up mcdb version 1.0.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pandas version 0.24.2-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-pytz version 2019.1:  
+
+Finding a value for CSCTRACKFINDEREMULATION_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/CSCTrackFinderEmulation/1.2-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/CSCTrackFinderEmulation/1.2-pafccj/lib64
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/CSCTrackFinderEmulation/1.2-pafccj/include
+
+
+* Library check [OK]       for libCSCTrackFinderEmulation
+
+
+-------------------------------
+
+Runtime path settings for CMSSW_SEARCH_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/CSCTrackFinderEmulation/1.2-pafccj/data
+
+Runtime variable CSC_TRACK_FINDER_DATA_DIR set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/CSCTrackFinderEmulation/1.2-pafccj/data/"
+
+
+Setting up csctrackfinderemulation version 1.2-pafccj:  
+
+Finding a value for MD5_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/md5/1.0.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/md5/1.0.0-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/md5/1.0.0-pafccj/include
+
+
+* Library check [OK]       for libcms-md5     
+
+
+-------------------------------
+
+
+Setting up md5 version 1.0.0-pafccj:  
+
+Finding a value for QT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtOpenGL
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtGui
+
+
+* Library check [OK]       for libQtOpenGL    
+* Library check [OK]       for libQtGui       
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtOpenGL
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtGui
+
+
+Setting up qt version 4.8.7-pafccj:  
+
+Finding a value for ZLIB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/zlib-x86_64/1.2.11-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/zlib-x86_64/1.2.11-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/zlib-x86_64/1.2.11-pafccj/lib
+
+
+* Library check [OK]       for libz           
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/zlib-x86_64/1.2.11-pafccj/include
+
+
+Setting up zlib version 1.2.11-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-prettytable version 0.7.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pymongo version 3.8.0:  
+
+Finding a value for CLASSLIB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/classlib/3.1.3-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/classlib/3.1.3-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/classlib/3.1.3-pafccj/include
+
+
+* Library check [OK]       for libclasslib    
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/classlib/3.1.3-pafccj/include
+
+
+Setting up classlib version 3.1.3-pafccj:  
+
+Finding a value for LLVM_ANALYZER_CCOMPILER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0
+
+Finding a value for CC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/bin/ccc-analyzer
+
+
+-------------------------------
+
+
+Setting up llvm-analyzer-ccompiler version 7.1.0:  
+
+Finding a value for CHARYBDIS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/charybdis/1.003-pafccj3
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/charybdis/1.003-pafccj3/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/charybdis/1.003-pafccj3/include
+
+
+* Library check [OK]       for libcharybdis   
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/charybdis/1.003-pafccj3/include
+
+
+Setting up charybdis version 1.003-pafccj3:  
+
+Finding a value for SCONS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/scons/3.0.1-pafccj
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/scons/3.0.1-pafccj/bin
+
+
+-------------------------------
+
+Runtime variable SCONS_LIB_DIR set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/scons/3.0.1-pafccj/lib"
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/scons/3.0.1-pafccj/bin
+
+
+Setting up scons version 3.0.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-functools32 version 3.2.3-2-pafccj:  
+
+Finding a value for MXNET_PREDICT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mxnet-predict/1.2.1-nmpfii2
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mxnet-predict/1.2.1-nmpfii2/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mxnet-predict/1.2.1-nmpfii2/lib
+
+
+* Library check [OK]       for libmxnetpredict
+
+
+-------------------------------
+
+
+Setting up mxnet-predict version 1.2.1-nmpfii2:  
+
+Finding a value for LIBUUID_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libuuid/2.22.2-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libuuid/2.22.2-pafccj/lib64
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libuuid/2.22.2-pafccj/include
+
+
+* Library check [OK]       for libuuid        
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libuuid/2.22.2-pafccj/include
+
+
+Setting up libuuid version 2.22.2-pafccj:  
+
+
+* Library check [OK]       for libtensorflow  
+
+
+-------------------------------
+
+
+Setting up tensorflow-c version 1.6.0-pafccj4:  
+
+Finding a value for FC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ccache/3.1.8-pafccj/bin/gfortran
+
+
+-------------------------------
+
+
+Setting up ccache-f77compiler version 3.1.8-pafccj:  
+
+Finding a value for LIBHEPML_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libhepml/0.2.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libhepml/0.2.1-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libhepml/0.2.1-pafccj/interface
+
+
+* Library check [OK]       for libhepml       
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libhepml/0.2.1-pafccj/interface
+
+
+Setting up libhepml version 0.2.1-pafccj:  
+
+Finding a value for QD_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qd/2.3.13-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qd/2.3.13-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qd/2.3.13-pafccj/include
+
+
+* Library check [OK]       for libqdmod       
+* Library check [OK]       for libqd          
+
+
+-------------------------------
+
+
+Setting up qd version 2.3.13-pafccj:  
+
+Finding a value for LLVM_CCOMPILER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0
+
+Finding a value for CC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/bin/clang
+
+
+-------------------------------
+
+
+Setting up llvm-ccompiler version 7.1.0:  
+
+
+-------------------------------
+
+
+Setting up py2-pyasn1-modules version 0.2.5:  
+
+Finding a value for QTBASE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/Qt
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtCore
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtXml
+
+
+* Library check [OK]       for libQtCore      
+* Library check [OK]       for libQtXml       
+
+
+-------------------------------
+
+Runtime path settings for QTLIB:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/lib
+
+Runtime path settings for QTINC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/Qt
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtCore
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/QtXml
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/bin
+
+Runtime path settings for QTDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj
+
+
+Setting up qtbase version 4.8.7-pafccj:  
+
+Finding a value for PY2_WHEEL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-wheel/0.33.1
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-wheel/0.33.1/bin
+
+
+Setting up py2-wheel version 0.33.1:  
+
+
+-------------------------------
+
+
+Setting up py2-pyyaml version 5.1:  
+
+Finding a value for ROOFIT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/include
+
+
+* Library check [OK]       for libRooFitCore  
+
+
+-------------------------------
+
+Runtime variable ROOFITSYS set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/bin
+
+
+Setting up roofitcore version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-ipykernel version 4.10.0:  
+
+
+* Library check [OK]       for libMLP         
+
+
+-------------------------------
+
+
+Setting up rootmlp version 6.14.09-pafccj3:  
+
+Finding a value for PY2_NUMBA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-numba/0.43.1-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-numba/0.43.1-pafccj2/bin
+
+
+Setting up py2-numba version 0.43.1-pafccj2:  
+
+Finding a value for PY2_ROOTPY_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-rootpy/1.0.1-pafccj6
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-rootpy/1.0.1-pafccj6/bin
+
+
+Setting up py2-rootpy version 1.0.1-pafccj6:  
+
+
+-------------------------------
+
+
+Setting up py2-scandir version 1.10.0:  
+
+
+-------------------------------
+
+
+Setting up py2-backports-functools_lru_cache version 1.5-pafccj:  
+
+
+* Library check [OK]       for libGLEW        
+
+
+-------------------------------
+
+
+Setting up rootglew version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-mccabe version 0.6.1-pafccj:  
+
+
+* Library check [OK]       for libGui         
+
+
+-------------------------------
+
+
+Setting up rootinteractive version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up root version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-futures version 3.2.0-pafccj:  
+
+Finding a value for LLVM_ANALYZER_CXXCOMPILER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0
+
+Finding a value for CXX:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/bin/c++-analyzer
+
+
+-------------------------------
+
+
+Setting up llvm-analyzer-cxxcompiler version 7.1.0:  
+
+
+-------------------------------
+
+
+Setting up py2-attrs version 19.1.0:  
+
+Finding a value for JIMMY_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jimmy/4.2-pafccj3
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jimmy/4.2-pafccj3/lib
+
+
+* Library check [OK]       for libjimmy       
+
+
+-------------------------------
+
+
+Setting up jimmy version 4.2-pafccj3:  
+
+
+* Library check [OK]       for libXMLIO       
+
+
+-------------------------------
+
+
+Setting up rootxmlio version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-cycler version 0.10.0-pafccj2:  
+
+
+* Library check [OK]       for libXMLParser   
+
+
+-------------------------------
+
+
+Setting up rootxml version 6.14.09-pafccj3:  
+
+Finding a value for HERWIGPP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwigpp/7.1.4-pafccj8
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwigpp/7.1.4-pafccj8/lib/Herwig
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwigpp/7.1.4-pafccj8/include
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwigpp/7.1.4-pafccj8/bin
+
+
+* Library check [OK]       for libHerwigAPI   
+
+
+-------------------------------
+
+Runtime variable HERWIGPATH set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwigpp/7.1.4-pafccj8/share/Herwig"
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwigpp/7.1.4-pafccj8/bin
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/herwigpp/7.1.4-pafccj8/include
+
+
+Setting up herwigpp version 7.1.4-pafccj8:  
+
+
+-------------------------------
+
+
+Setting up py2-colorama version 0.4.1-pafccj:  
+
+
+* Library check [OK]       for libbenchmark_main
+
+
+-------------------------------
+
+
+Setting up google-benchmark-main version 1.4.x-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-testpath version 0.4.2-pafccj:  
+
+Finding a value for PYMINUIT2_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pyminuit2/0.0.1-pafccj6
+
+
+-------------------------------
+
+
+Setting up pyminuit2 version 0.0.1-pafccj6:  
+
+Finding a value for PY2_QTCONSOLE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-qtconsole/4.4.4
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-qtconsole/4.4.4/bin
+
+
+Setting up py2-qtconsole version 4.4.4:  
+
+
+-------------------------------
+
+
+Setting up py2-pexpect version 4.7.0:  
+
+Finding a value for TAUOLA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauola/27.121.5-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauola/27.121.5-pafccj/lib
+
+
+* Library check [OK]       for libpretauola   
+* Library check [OK]       for libtauola      
+
+
+-------------------------------
+
+
+Setting up tauola version 27.121.5-pafccj:  
+
+
+-------------------------------
+
+
+Setting up python_tools version 2.0-pafccj6:  
+
+Finding a value for NUMPY_C_API_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-numpy/1.16.2-nmpfii2
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-numpy/1.16.2-nmpfii2/c-api/core/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-numpy/1.16.2-nmpfii2/c-api/core/lib
+
+
+* Library check [OK]       for libnpymath     
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-numpy/1.16.2-nmpfii2/c-api/core/include
+
+
+Setting up numpy-c-api version 1.16.2-nmpfii2:  
+
+
+* Library check [OK]       for libMinuit      
+
+
+-------------------------------
+
+
+Setting up rootminuit version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-hyperas version 0.4.1-pafccj2:  
+
+
+* Library check [OK]       for libocci        
+
+
+-------------------------------
+
+
+Setting up oracleocci version 12.1.0.2.0-pafccj2:  
+
+
+* Library check [OK]       for libThread      
+
+
+-------------------------------
+
+
+Setting up rootthread version 6.14.09-pafccj3:  
+
+Finding a value for PY2_PBR_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pbr/5.2.0
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pbr/5.2.0/bin
+
+
+Setting up py2-pbr version 5.2.0:  
+
+
+-------------------------------
+
+
+Setting up py2-dablooms version 0.9.1-pafccj:  
+
+Finding a value for CXX:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/distcc/3.2rc1-pafccj/bin/c++
+
+
+-------------------------------
+
+
+Setting up distcc-cxxcompiler version 3.2rc1-pafccj:  
+
+Finding a value for PY2_CYTHON_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-cython/0.29.7
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-cython/0.29.7/bin
+
+
+Setting up py2-cython version 0.29.7:  
+
+
+* Library check [OK]       for libnvjpeg      
+
+
+-------------------------------
+
+
+Setting up cuda-nvjpeg version 10.1.105-pafccj2:  
+
+Finding a value for CATCH2_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/catch2/2.2.2-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/catch2/2.2.2-pafccj/include
+
+
+-------------------------------
+
+
+Setting up catch2 version 2.2.2-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-bleach version 3.1.0-pafccj:  
+
+Finding a value for PY2_JUPYTER_CONSOLE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-jupyter_console/5.2.0-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-jupyter_console/5.2.0-pafccj2/bin
+
+
+Setting up py2-jupyter_console version 5.2.0-pafccj2:  
+
+
+-------------------------------
+
+
+Setting up cuda-gcc-support version 10.1.105-pafccj2:  
+
+Finding a value for DMTCP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dmtcp/3.0.0-dev-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dmtcp/3.0.0-dev-pafccj/lib
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dmtcp/3.0.0-dev-pafccj/lib/dmtcp
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dmtcp/3.0.0-dev-pafccj/bin
+
+
+Setting up dmtcp version 3.0.0-dev-pafccj:  
+
+
+* Library check [OK]       for libMinuit2     
+
+
+-------------------------------
+
+
+Setting up rootminuit2 version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-awkward version 0.9.0-nmpfii2:  
+
+Finding a value for TINYXML2_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tinyxml2/6.2.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tinyxml2/6.2.0-pafccj/lib64
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tinyxml2/6.2.0-pafccj/include
+
+
+* Library check [OK]       for libtinyxml2    
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tinyxml2/6.2.0-pafccj/include
+
+
+Setting up tinyxml2 version 6.2.0-pafccj:  
+
+
+* Library check [OK]       for libCGAL_ImageIO
+
+
+-------------------------------
+
+
+Setting up cgalimageio version 4.2-pafccj:  
+
+Finding a value for CC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/distcc/3.2rc1-pafccj/bin/gcc
+
+
+-------------------------------
+
+
+Setting up distcc-ccompiler version 3.2rc1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-cachetools version 3.1.0-pafccj:  
+
+Finding a value for DAS_CLIENT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/das_client/v03.01.00-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/das_client/v03.01.00-pafccj/bin
+
+
+Setting up das_client version v03.01.00-pafccj:  
+
+
+* Library check [OK]       for libnsl         
+* Library check [OK]       for libcrypt       
+* Library check [OK]       for libdl          
+* Library check [OK]       for librt          
+
+
+-------------------------------
+
+
+Setting up sockets version 1.0:  
+
+
+-------------------------------
+
+
+Setting up py2-google-common version 0.0.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-prometheus_client version 0.6.0:  
+
+Finding a value for VINCIA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vincia/2.2.04-pafccj4
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vincia/2.2.04-pafccj4/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vincia/2.2.04-pafccj4/include
+
+
+* Library check [OK]       for libvincia      
+* Library check [OK]       for libVinciaMG4   
+* Library check [OK]       for libVinciaMG5   
+
+
+-------------------------------
+
+Runtime variable VINCIADATA set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/vincia/2.2.04-pafccj4/share/Vincia/xmldoc"
+
+
+Setting up vincia version 2.2.04-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-keras version 2.2.4-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-tornado version 5.1.1-pafccj:  
+
+Finding a value for PYTHIA8_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia8/240-pafccj4
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia8/240-pafccj4/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia8/240-pafccj4/include
+
+
+* Library check [OK]       for libpythia8     
+
+
+-------------------------------
+
+Runtime variable PYTHIA8DATA set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia8/240-pafccj4/share/Pythia8/xmldoc"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia8/240-pafccj4/include
+
+
+Setting up pythia8 version 240-pafccj4:  
+
+Finding a value for PYTHON3_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python3/3.6.4-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python3/3.6.4-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python3/3.6.4-pafccj/include/python3.6m
+
+Finding a value for PYTHON3_COMPILE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python3/3.6.4-pafccj/lib/python3.6/compileall.py
+
+
+* Library check [OK]       for libpython3.6m  
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python3/3.6.4-pafccj/bin
+
+
+Setting up python3 version 3.6.4-pafccj:  
+
+Finding a value for HEPMC_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hepmc/2.06.07-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hepmc/2.06.07-pafccj/lib
+
+
+* Library check [OK]       for libHepMCfio    
+* Library check [OK]       for libHepMC       
+
+
+-------------------------------
+
+Runtime path settings for CMSSW_FWLITE_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/hepmc/2.06.07-pafccj/include
+
+
+Setting up hepmc version 2.06.07-pafccj:  
+
+Finding a value for TENSORFLOW_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tensorflow/1.6.0-pafccj4
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tensorflow/1.6.0-pafccj4/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tensorflow/1.6.0-pafccj4/include
+
+Finding a value for TFCOMPILE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tensorflow/1.6.0-pafccj4/bin/tfcompile
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tensorflow/1.6.0-pafccj4/bin
+
+
+Setting up tensorflow version 1.6.0-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-webencodings version 0.5.1-pafccj:  
+
+Finding a value for CUB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cub/1.8.0-pafccj4
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cub/1.8.0-pafccj4/include
+
+
+-------------------------------
+
+
+Setting up cub version 1.8.0-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-atomicwrites version 1.3.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-nose-parameterized version 0.6.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-networkx version 2.2-pafccj:  
+
+Finding a value for BOOSTHEADER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/boost/1.67.0-pafccj/include
+
+
+Setting up boost_header version 1.67.0-pafccj:  
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/codechecker/0.1-pafccj2/bin
+
+
+Setting up codechecker version 0.1-pafccj2:  
+
+Finding a value for XERCES_C_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xerces-c/3.1.3-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xerces-c/3.1.3-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xerces-c/3.1.3-pafccj/lib
+
+
+* Library check [OK]       for libxerces-c    
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xerces-c/3.1.3-pafccj/include
+
+
+Setting up xerces-c version 3.1.3-pafccj:  
+
+Finding a value for PY2_PYGMENTS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-Pygments/2.3.1-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-Pygments/2.3.1-pafccj/bin
+
+
+Setting up py2-pygments version 2.3.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pygithub version 1.23.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-enum34 version 1.1.6-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-ipython_genutils version 0.2.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-asn1crypto version 0.24.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-uproot version 3.5.1-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-uproot-methods version 0.5.1-nmpfii2:  
+
+Finding a value for LLVM_CXXCOMPILER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0
+
+Finding a value for CXX:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/bin/clang++
+
+
+-------------------------------
+
+Runtime path settings for LD_LIBRARY_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/lib64
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/llvm/7.1.0/bin
+
+
+Setting up llvm-cxxcompiler version 7.1.0:  
+
+
+* Library check [OK]       for libPyROOT      
+
+
+-------------------------------
+
+
+Setting up rootpy version 6.14.09-pafccj3:  
+
+Finding a value for PY2_TQDM_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-tqdm/4.31.1
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-tqdm/4.31.1/bin
+
+
+Setting up py2-tqdm version 4.31.1:  
+
+
+-------------------------------
+
+
+Setting up py2-pyasn1 version 0.4.5-pafccj:  
+
+Finding a value for GLIBC_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/glibc/2.17-78.el7_2.12-1.166.el6_7.3
+
+
+-------------------------------
+
+
+Setting up glibc version 2.17-78.el7_2.12-1.166.el6_7.3:  
+
+
+-------------------------------
+
+
+Setting up py2-theanets version 0.7.3-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-py version 1.8.0:  
+
+
+* Library check [OK]       for libcusparse    
+
+
+-------------------------------
+
+
+Setting up cuda-cusparse version 10.1.105-pafccj2:  
+
+Finding a value for TAUOLA_HEADERS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauola/27.121.5-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauola/27.121.5-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tauola/27.121.5-pafccj/include
+
+
+Setting up tauola_headers version 27.121.5-pafccj:  
+
+Finding a value for PY2_VIRTUALENV_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-virtualenv/16.0.0-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-virtualenv/16.0.0-pafccj/bin
+
+
+Setting up py2-virtualenv version 16.0.0-pafccj:  
+
+Finding a value for PYTHON_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python/2.7.14-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python/2.7.14-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python/2.7.14-pafccj/include/python2.7
+
+Finding a value for PYTHON_COMPILE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python/2.7.14-pafccj/lib/python2.7/compileall.py
+
+
+* Library check [OK]       for libpython2.7   
+
+
+-------------------------------
+
+Runtime path settings for PYTHON_VALGRIND_SUPP:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python/2.7.14-pafccj/share/valgrind/valgrind-python.supp
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python/2.7.14-pafccj/include/python2.7
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/python/2.7.14-pafccj/bin
+
+
+Setting up python version 2.7.14-pafccj:  
+
+
+* Library check [OK]       for libboost_system
+
+
+-------------------------------
+
+
+Setting up boost_system version 1.67.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pydot version 1.4.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pkgconfig version 1.5.1:  
+
+Finding a value for CORAL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/coral/CORAL_2_3_21-pafccj5
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/coral/CORAL_2_3_21-pafccj5/slc7_amd64_gcc700/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/coral/CORAL_2_3_21-pafccj5/include/LCG
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/coral/CORAL_2_3_21-pafccj5/include/LCG
+
+Runtime path settings for PYTHON27PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/coral/CORAL_2_3_21-pafccj5/slc7_amd64_gcc700/python
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/coral/CORAL_2_3_21-pafccj5/slc7_amd64_gcc700/lib
+
+
+Setting up coral version CORAL_2_3_21-pafccj5:  
+
+
+-------------------------------
+
+
+Setting up py2-prompt_toolkit version 1.0.15-pafccj2:  
+
+Finding a value for MESCHACH_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/meschach/1.2.pCMS1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/meschach/1.2.pCMS1-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/meschach/1.2.pCMS1-pafccj/include
+
+
+* Library check [OK]       for libmeschach    
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/meschach/1.2.pCMS1-pafccj/include
+
+
+Setting up meschach version 1.2.pCMS1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-certifi version 2019.3.9:  
+
+Finding a value for FASTJET_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet/3.3.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet/3.3.0-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet/3.3.0-pafccj/include
+
+
+* Library check [OK]       for libfastjetplugins
+* Library check [OK]       for libfastjettools
+* Library check [OK]       for libsiscone     
+* Library check [OK]       for libsiscone_spherical
+* Library check [OK]       for libfastjet     
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet/3.3.0-pafccj/include
+
+Runtime path settings for PYTHON27PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fastjet/3.3.0-pafccj/lib/python2.7/site-packages
+
+
+Setting up fastjet version 3.3.0-pafccj:  
+
+Finding a value for PY2_DXR_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-dxr/1.0-pafccj4
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-dxr/1.0-pafccj4/lib
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-dxr/1.0-pafccj4/bin
+
+
+Setting up py2-dxr version 1.0-pafccj4:  
+
+Finding a value for PY2_PYCODESTYLE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pycodestyle/2.5.0-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pycodestyle/2.5.0-pafccj/bin
+
+
+Setting up py2-pycodestyle version 2.5.0-pafccj:  
+
+Finding a value for GIT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/git/2.19.0-pafccj
+
+
+-------------------------------
+
+Runtime path settings for GIT_SSL_CAINFO:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/git/2.19.0-pafccj/share/ssl/certs/ca-bundle.crt
+
+Runtime path settings for GIT_TEMPLATE_DIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/git/2.19.0-pafccj/share/git-core/templates
+
+Runtime path settings for GIT_EXEC_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/git/2.19.0-pafccj/libexec/git-core
+
+Runtime path settings for PERL5LIB:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/git/2.19.0-pafccj/share/perl5
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/git/2.19.0-pafccj/bin
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/git/2.19.0-pafccj/libexec/git-core
+
+
+Setting up git version 2.19.0-pafccj:  
+
+Finding a value for FFTJET_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fftjet/1.5.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fftjet/1.5.0-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fftjet/1.5.0-pafccj/include
+
+
+* Library check [OK]       for libfftjet      
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/fftjet/1.5.0-pafccj/include
+
+
+Setting up fftjet version 1.5.0-pafccj:  
+
+
+* Library check [OK]       for libTreePlayer  
+* Library check [OK]       for libGraf3d      
+* Library check [OK]       for libPostscript  
+
+
+-------------------------------
+
+
+Setting up rootgraphics version 6.14.09-pafccj3:  
+
+Finding a value for CXX:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ccache/3.1.8-pafccj/bin/c++
+
+Finding a value for BUILDENV_CCACHE_BASEDIR:
+
+	Checks [OK] for /pool/condor/dir_31472/CMSSW_10_6_8
+
+
+-------------------------------
+
+
+Setting up ccache-cxxcompiler version 3.1.8-pafccj:  
+Updating symlinks under external/slc7_amd64_gcc700
+
+Finding a value for ITTNOTIFY_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ittnotify/16.06.18-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ittnotify/16.06.18-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ittnotify/16.06.18-pafccj/lib
+
+
+* Library check [OK]       for libittnotify   
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/ittnotify/16.06.18-pafccj/include
+
+
+Setting up ittnotify version 16.06.18-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-click version 7.0-pafccj:  
+
+Finding a value for GOSAMCONTRIB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosamcontrib/2.0-20150803-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosamcontrib/2.0-20150803-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosamcontrib/2.0-20150803-pafccj/include
+
+
+-------------------------------
+
+Runtime path settings for GOSAMCONTRIB_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosamcontrib/2.0-20150803-pafccj
+
+Runtime path settings for ROOT_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosamcontrib/2.0-20150803-pafccj
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gosamcontrib/2.0-20150803-pafccj/include
+
+
+Setting up gosamcontrib version 2.0-20150803-pafccj:  
+
+Finding a value for ROOT_INTERFACE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/lib
+
+
+-------------------------------
+
+Runtime variable ROOT_TTREECACHE_SIZE set to "
+Runtime variable ROOTSYS set to "/cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/"
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/bin
+
+Runtime variable ROOT_TTREECACHE_PREFILL set to "
+
+Setting up root_interface version 6.14.09-pafccj3:  
+
+
+* Library check [OK]       for libboost_mpi   
+
+
+-------------------------------
+
+
+Setting up boost_mpi version 1.67.0-pafccj:  
+
+Finding a value for SIGCPP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sigcpp/2.6.2-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sigcpp/2.6.2-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sigcpp/2.6.2-pafccj/include/sigc++-2.0
+
+
+* Library check [OK]       for libsigc-2.0    
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sigcpp/2.6.2-pafccj/include/sigc++-2.0
+
+
+Setting up sigcpp version 2.6.2-pafccj:  
+
+
+* Library check [OK]       for libboost_program_options
+
+
+-------------------------------
+
+
+Setting up boost_program_options version 1.67.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-send2trash version 1.5.0-pafccj:  
+
+Finding a value for PY2_NBFORMAT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-nbformat/4.4.0-pafccj2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-nbformat/4.4.0-pafccj2/bin
+
+
+Setting up py2-nbformat version 4.4.0-pafccj2:  
+
+
+* Library check [OK]       for libboost_signals
+
+
+-------------------------------
+
+
+Setting up boost_signals version 1.67.0-pafccj:  
+
+Finding a value for MCTESTER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mctester/1.25.0a-pafccj6
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mctester/1.25.0a-pafccj6/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mctester/1.25.0a-pafccj6/include
+
+
+* Library check [OK]       for libHEPEvent    
+* Library check [OK]       for libHepMCEvent  
+* Library check [OK]       for libMCTester    
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/mctester/1.25.0a-pafccj6/include
+
+
+Setting up mctester version 1.25.0a-pafccj6:  
+
+
+* Library check [OK]       for libboost_filesystem
+
+
+-------------------------------
+
+
+Setting up boost_filesystem version 1.67.0-pafccj:  
+
+Finding a value for TCMALLOC_MINIMAL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gperftools/2.6.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gperftools/2.6.1-pafccj/lib
+
+
+* Library check [OK]       for libtcmalloc_minimal
+
+
+-------------------------------
+
+
+Setting up tcmalloc_minimal version 2.6.1-pafccj:  
+
+
+* Library check [OK]       for libnvrtc       
+
+
+-------------------------------
+
+
+Setting up cuda-nvrtc version 10.1.105-pafccj2:  
+
+
+-------------------------------
+
+
+Setting up py2-parso version 0.4.0:  
+
+
+* Library check [OK]       for libTree        
+* Library check [OK]       for libNet         
+
+
+-------------------------------
+
+
+Setting up rootcore version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-decorator version 4.4.0:  
+
+
+-------------------------------
+
+
+Setting up py2-backcall version 0.1.0-pafccj:  
+
+
+* Library check [OK]       for libnppial      
+* Library check [OK]       for libnppicc      
+* Library check [OK]       for libnppicom     
+* Library check [OK]       for libnppidei     
+* Library check [OK]       for libnppif       
+* Library check [OK]       for libnppig       
+* Library check [OK]       for libnppim       
+* Library check [OK]       for libnppist      
+* Library check [OK]       for libnppisu      
+* Library check [OK]       for libnppitc      
+* Library check [OK]       for libnpps        
+* Library check [OK]       for libnppc        
+
+
+-------------------------------
+
+
+Setting up cuda-npp version 10.1.105-pafccj2:  
+
+
+-------------------------------
+
+Runtime path settings for ROOT_GCC_TOOLCHAIN:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /usr/local/include
+	Checks [OK] for /usr/include
+
+
+Setting up root_cxxdefaults version 6.14.09-pafccj3:  
+
+Finding a value for GCC_PLUGIN_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib/gcc/x86_64-unknown-linux-gnu/7.4.1/plugin
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib/gcc/x86_64-unknown-linux-gnu/7.4.1/plugin/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gcc/7.0.0-pafccj/lib/gcc/x86_64-unknown-linux-gnu/7.4.1/plugin
+
+
+* Library check [OK]       for libcc1plugin cp1plugin
+
+
+-------------------------------
+
+
+Setting up gcc-plugin version 7.0.0-pafccj:  
+
+Finding a value for PY2_PIP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pip/9.0.3-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-pip/9.0.3-pafccj/bin
+
+
+Setting up py2-pip version 9.0.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-seaborn version 0.9.0-pafccj4:  
+
+Finding a value for GLIMPSE_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/glimpse/4.18.5-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/glimpse/4.18.5-pafccj/bin
+
+
+Setting up glimpse version 4.18.5-pafccj:  
+
+Finding a value for CUDA_STUBS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2/lib64/stubs
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2/include
+
+
+* Library check [OK]       for libcuda        
+
+
+-------------------------------
+
+
+Setting up cuda-stubs version 10.1.105-pafccj2:  
+
+
+-------------------------------
+
+
+Setting up py2-protobuf version 3.4.0-pafccj2:  
+
+Finding a value for GEANT4_PARFULLCMS:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-parfullcms/2014.01.27-pafccj
+
+
+-------------------------------
+
+Runtime path settings for GEANT4_PARFULLCMS_CONFIG_DIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-parfullcms/2014.01.27-pafccj/share/ParFullCMS
+
+Runtime variable G4FORCENUMBEROFTHREADS set to "max"
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geant4-parfullcms/2014.01.27-pafccj/bin
+
+
+Setting up geant4-parfullcms version 2014.01.27-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-sqlalchemy version 1.1.4-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-repoze-lru version 0.7-pafccj:  
+
+Finding a value for GENEVA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geneva/1.0-RC3-pafccj6
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geneva/1.0-RC3-pafccj6/bin
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geneva/1.0-RC3-pafccj6/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geneva/1.0-RC3-pafccj6/include/Geneva
+
+
+-------------------------------
+
+Runtime path settings for GENEVA_DATA_DIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geneva/1.0-RC3-pafccj6/share/Geneva
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/geneva/1.0-RC3-pafccj6/bin
+
+
+Setting up geneva version 1.0-RC3-pafccj6:  
+
+
+-------------------------------
+
+
+Setting up py2-pandocfilters version 1.4.2-pafccj:  
+
+Finding a value for TKONLINESW_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tkonlinesw/4.2.0-1_gcc7-pafccj6
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tkonlinesw/4.2.0-1_gcc7-pafccj6/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tkonlinesw/4.2.0-1_gcc7-pafccj6/include
+
+
+* Library check [OK]       for libICUtils     
+* Library check [OK]       for libFed9UUtils  
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/tkonlinesw/4.2.0-1_gcc7-pafccj6/include
+
+
+Setting up tkonlinesw version 4.2.0-1_gcc7-pafccj6:  
+
+
+* Library check [OK]       for libDDAlign     
+* Library check [OK]       for libDDCond      
+
+
+-------------------------------
+
+
+Setting up dd4hep version v01-10x-pafccj6:  
+
+Finding a value for QT3SUPPORT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/Qt3Support
+
+
+* Library check [OK]       for libQt3Support  
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/qt/4.8.7-pafccj/include/Qt3Support
+
+
+Setting up qt3support version 4.8.7-pafccj:  
+
+Finding a value for EXPAT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/expat/2.1.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/expat/2.1.0-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/expat/2.1.0-pafccj/include
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/expat/2.1.0-pafccj/bin
+
+
+* Library check [OK]       for libexpat       
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/expat/2.1.0-pafccj/include
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/expat/2.1.0-pafccj/bin
+
+
+Setting up expat version 2.1.0-pafccj:  
+
+Finding a value for PHOTOS_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/photos/215.5-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/photos/215.5-pafccj/lib
+
+
+* Library check [OK]       for libphotos      
+
+
+-------------------------------
+
+
+Setting up photos version 215.5-pafccj:  
+
+
+* Library check [OK]       for libRIO         
+
+
+-------------------------------
+
+
+Setting up rootrio version 6.14.09-pafccj3:  
+
+Finding a value for SIP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/sip/4.17-pafccj
+
+
+-------------------------------
+
+
+Setting up sip version 4.17-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-traitlets version 4.3.2-pafccj2:  
+
+Finding a value for PY2_TENSORFLOW_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-tensorflow/1.6.0-pafccj4
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-tensorflow/1.6.0-pafccj4/bin
+
+
+Setting up py2-tensorflow version 1.6.0-pafccj4:  
+
+
+-------------------------------
+
+
+Setting up py2-neurolab version 0.3.5-pafccj:  
+
+
+* Library check [OK]       for libRooFit      
+
+
+-------------------------------
+
+
+Setting up roofit version 6.14.09-pafccj3:  
+
+Finding a value for PY2_HYPEROPT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-hyperopt/0.1.2-nmpfii2
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-hyperopt/0.1.2-nmpfii2/bin
+
+
+Setting up py2-hyperopt version 0.1.2-nmpfii2:  
+
+
+-------------------------------
+
+
+Setting up py2-soupsieve version 1.9.1:  
+
+Finding a value for PYTHIA6_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia6/426-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/pythia6/426-pafccj/lib
+
+
+* Library check [OK]       for libpythia6     
+* Library check [OK]       for libpythia6_dummy
+* Library check [OK]       for libpythia6_pdfdummy
+
+
+-------------------------------
+
+
+Setting up pythia6 version 426-pafccj:  
+
+Finding a value for DPM_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dpm/1.8.0.1-pafccj
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dpm/1.8.0.1-pafccj/include
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dpm/1.8.0.1-pafccj/lib
+
+
+* Library check [OK]       for libdpm         
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/dpm/1.8.0.1-pafccj/include
+
+
+Setting up dpm version 1.8.0.1-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-subprocess32 version 3.5.3-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-jsonpickle version 1.1-pafccj:  
+
+
+* Library check [OK]       for libPhysics     
+
+
+-------------------------------
+
+
+Setting up rootphysics version 6.14.09-pafccj3:  
+
+Finding a value for PY2_NOTEBOOK_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-notebook/5.7.8-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-notebook/5.7.8-pafccj/bin
+
+
+Setting up py2-notebook version 5.7.8-pafccj:  
+
+Finding a value for PY2_VIRTUALENVWRAPPER_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-virtualenvwrapper/4.8.4-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/py2-virtualenvwrapper/4.8.4-pafccj/bin
+
+
+Setting up py2-virtualenvwrapper version 4.8.4-pafccj:  
+
+Finding a value for ALPGEN_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/alpgen/214-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/alpgen/214-pafccj/bin
+
+
+Setting up alpgen version 214-pafccj:  
+
+Finding a value for LIBUNGIF_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libungif/4.1.4-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libungif/4.1.4-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libungif/4.1.4-pafccj/include
+
+
+* Library check [OK]       for libungif       
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libungif/4.1.4-pafccj/include
+
+
+Setting up libungif version 4.1.4-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pickleshare version 0.7.5-pafccj:  
+
+
+* Library check [OK]       for libGenVector   
+* Library check [OK]       for libMathMore    
+
+
+-------------------------------
+
+
+Setting up rootmath version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-defusedxml version 0.6.0:  
+
+Finding a value for ROOTCLING_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/lcg/root/6.14.09-pafccj3/include
+
+
+* Library check [OK]       for libCore        
+
+
+-------------------------------
+
+
+Setting up rootcling version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-xrootdpyfs version 0.1.5-pafccj2:  
+
+Finding a value for JEMALLOC_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jemalloc/5.1.0-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jemalloc/5.1.0-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jemalloc/5.1.0-pafccj/include
+
+
+* Library check [OK]       for libjemalloc    
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/jemalloc/5.1.0-pafccj/include
+
+
+Setting up jemalloc version 5.1.0-pafccj:  
+
+
+-------------------------------
+
+
+Setting up py2-pyopenssl version 19.0.0-pafccj2:  
+
+Finding a value for GNUPLOT_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gnuplot/4.6.5-pafccj
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/gnuplot/4.6.5-pafccj/bin
+
+
+Setting up gnuplot version 4.6.5-pafccj:  
+
+
+* Library check [OK]       for libPyMVA       
+
+
+-------------------------------
+
+
+Setting up rootpymva version 6.14.09-pafccj3:  
+
+
+-------------------------------
+
+
+Setting up py2-keras-applications version 1.0.7-nmpfii2:  
+
+Finding a value for CUDA_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2
+
+Finding a value for NVCC:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2/bin/nvcc
+
+Finding a value for BINDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2/bin
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2/lib64
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2/include
+
+
+* Library check [OK]       for libcudart      
+* Library check [OK]       for libcudadevrt   
+* Library check [OK]       for libnvToolsExt  
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/cuda/10.1.105-pafccj2/bin
+
+
+Setting up cuda version 10.1.105-pafccj2:  
+
+Finding a value for BZ2LIB_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/bz2lib/1.0.6-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/bz2lib/1.0.6-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/bz2lib/1.0.6-pafccj/include
+
+
+* Library check [OK]       for libbz2         
+
+
+-------------------------------
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/bz2lib/1.0.6-pafccj/include
+
+
+Setting up bz2lib version 1.0.6-pafccj:  
+
+Finding a value for XTL_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xtl/0.6.3
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/xtl/0.6.3/include
+
+
+-------------------------------
+
+
+Setting up xtl version 0.6.3:  
+
+
+-------------------------------
+
+
+Setting up py2-root_pandas version 0.6.1-pafccj5:  
+
+Finding a value for LIBJPEG_TURBO_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libjpeg-turbo/2.0.1-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libjpeg-turbo/2.0.1-pafccj/lib64
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libjpeg-turbo/2.0.1-pafccj/include
+
+
+* Library check [OK]       for libjpeg        
+* Library check [OK]       for libturbojpeg   
+
+
+-------------------------------
+
+Runtime path settings for PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libjpeg-turbo/2.0.1-pafccj/bin
+
+Runtime path settings for ROOT_INCLUDE_PATH:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/libjpeg-turbo/2.0.1-pafccj/include
+
+
+Setting up libjpeg-turbo version 2.0.1-pafccj:  
+
+
+* Library check [OK]       for libROOTDataFrame
+
+
+-------------------------------
+
+
+Setting up rootdataframe version 6.14.09-pafccj3:  
+
+Finding a value for TOPREX_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/toprex/4.23-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/toprex/4.23-pafccj/lib
+
+
+* Library check [OK]       for libtoprex      
+
+
+-------------------------------
+
+
+Setting up toprex version 4.23-pafccj:  
+
+Finding a value for PHOTOSPP_BASE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/photospp/3.61-pafccj
+
+Finding a value for LIBDIR:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/photospp/3.61-pafccj/lib
+
+Finding a value for INCLUDE:
+
+	Checks [OK] for /cvmfs/cms.cern.ch/slc7_amd64_gcc700/external/photospp/3.61-pafccj/include
+
+
+* Library check [OK]       for libPhotospp    
+* Library check [OK]       for libPhotosppHepMC
+* Library check [OK]       for libPhotosppHEPEVT
+
+
+-------------------------------
+
+
+Setting up photospp version 3.61-pafccj:  
+Done: ProjectRename
+Arjun_skim.py
+Condor_Job_Submit_UL_NANO_BkG.jdl
+Condor_Job_UL_NANO_BkG.sh
+MC_Analyzer_NANO_AOD.C
+MC_Analyzer_NANO_AOD.h
+NANO_AOD_Ntuple_Analyzer.h
+PUPPI.exe
+Sample_Header.h
+TTbar_UL16_test.txt
+TTbar_test.txt
+UL17_Analyzer_NANO_AOD.C
+UL17_Analyzer_NANO_AOD.h
+UL17_Analyzer_NANO_AOD_with_LepJetClean.h
+achhetri.cc
+jobsubmit_script
+output_log
+run_cmnd
+============================================
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_98.root , Events= 57077  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_98.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_99.root , Events= 70882  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-1000toInf_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt1000toInf/201221_135308/0000/tree_99.root
+
+ Yo man It works
+ For Sample = QCD_Pt-1000_MuEnr_UL17   Xsections = 1094 && Events = 1.47514e+07
+PWD: /pool/condor/dir_31472/CMSSW_10_6_8/src/Phase_III_Analysis_with_NanoAOD/NANO_AOD_Analyzer
+====> List output files : 
+Sat Dec 26 20:24:36 CET 2020
