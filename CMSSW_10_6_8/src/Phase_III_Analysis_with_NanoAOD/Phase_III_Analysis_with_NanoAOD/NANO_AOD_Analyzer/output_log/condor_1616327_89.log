@@ -1,0 +1,42 @@
+000 (1616327.089.000) 07/08 09:29:26 Job submitted from host: <188.185.71.83:9618?addrs=188.185.71.83-9618+[2001-1458-d00-7--100-34d]-9618&alias=bigbird18.cern.ch&noUDP&sock=schedd_1990_8d8e>
+...
+040 (1616327.089.000) 07/08 09:32:16 Started transferring input files
+	Transferring to host: <188.184.196.115:9618?addrs=188.184.196.115-9618+[2001-1458-301-102--100-87]-9618&alias=b7g24n0227.cern.ch&noUDP&sock=slot1_12_3680_a48f_67670>
+...
+040 (1616327.089.000) 07/08 09:32:16 Finished transferring input files
+...
+001 (1616327.089.000) 07/08 09:32:17 Job executing on host: <188.184.196.115:9618?addrs=188.184.196.115-9618+[2001-1458-301-102--100-87]-9618&alias=b7g24n0227.cern.ch&noUDP&sock=startd_3038_64cf>
+...
+006 (1616327.089.000) 07/08 09:32:26 Image size of job updated: 487264
+	87  -  MemoryUsage of job (MB)
+	88112  -  ResidentSetSize of job (KB)
+...
+006 (1616327.089.000) 07/08 09:37:27 Image size of job updated: 565556
+	158  -  MemoryUsage of job (MB)
+	161660  -  ResidentSetSize of job (KB)
+...
+006 (1616327.089.000) 07/08 09:42:27 Image size of job updated: 565624
+	160  -  MemoryUsage of job (MB)
+	163628  -  ResidentSetSize of job (KB)
+...
+040 (1616327.089.000) 07/08 09:48:41 Started transferring output files
+...
+040 (1616327.089.000) 07/08 09:48:41 Finished transferring output files
+...
+005 (1616327.089.000) 07/08 09:48:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:13:52, Sys 0 00:00:07  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:13:52, Sys 0 00:00:07  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	34062  -  Run Bytes Sent By Job
+	601852  -  Run Bytes Received By Job
+	34062  -  Total Bytes Sent By Job
+	601852  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.97        1         1 
+	   Disk (KB)            : 43824         750    301460 
+	   Memory (MB)          :   160        2000      2000 
+
+	Job terminated of its own accord at 2021-07-08T07:48:41Z.
+...

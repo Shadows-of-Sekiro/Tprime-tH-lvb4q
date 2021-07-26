@@ -1,0 +1,13 @@
+[8MB/29.36MB][ 27%][=============>                                    ][8MB/s]  [24MB/29.36MB][ 81%][========================================>         ][24MB/s]  [29.36MB/29.36MB][100%][==================================================][29.36MB/s]  [29.36MB/29.36MB][100%][==================================================][29.36MB/s]  
+xrdcp: No such file or directory processing ../Analyzed_Files_Nano_AOD/UL_TTbar/root_text_files_list/TT*.root
+xrdcp: No such file or directory processing ../Analyzed_Files_Nano_AOD/UL17_Bkg/root_file_list/QCD*.root
+xrdcp: No such file or directory processing ../Analyzed_Files_Nano_AOD/UL17_Bkg/root_file_list/WJets_LNu_HT*.root
+[482B/482B][100%][==================================================][482B/s]  [482B/482B][100%][==================================================][482B/s]  
+Job: 1/2
+Source: file://localhost/pool/condor/dir_13805/CMSSW_10_6_8/src/Phase_III_Analysis_with_NanoAOD/NANO_AOD_Analyzer/../Analyzed_Files_Nano_AOD/UL17_Bkg/root_file_list/ST_t-channel_top_4f_inclusiveDecays_UL17_v2_5_Electronic_HiggsDeepMD_2DLepIso__EvntW_14-Jun-21.root
+Target: root://eosuser.cern.ch:1094//eos/user/a/achhetri/Tprime_PhaseIII/Analyzed_NANO_file_via_Condor/Background_Samples_UL17/UL17_SingleTop_Files//ST_t-channel_top_4f_inclusiveDecays_UL17_v2_5_Electronic_HiggsDeepMD_2DLepIso__EvntW_14-Jun-21.root
+[231.6kB/231.6kB][100%][==================================================][231.6kB/s]  [231.6kB/231.6kB][100%][==================================================][231.6kB/s]  
+Job: 2/2
+Source: file://localhost/pool/condor/dir_13805/CMSSW_10_6_8/src/Phase_III_Analysis_with_NanoAOD/NANO_AOD_Analyzer/../Analyzed_Files_Nano_AOD/UL17_Bkg/root_file_list/ST_t-channel_top_4f_inclusiveDecays_UL17_v2_5_Muonic_HiggsDeepMD_2DLepIso__EvntW_14-Jun-21.root
+Target: root://eosuser.cern.ch:1094//eos/user/a/achhetri/Tprime_PhaseIII/Analyzed_NANO_file_via_Condor/Background_Samples_UL17/UL17_SingleTop_Files//ST_t-channel_top_4f_inclusiveDecays_UL17_v2_5_Muonic_HiggsDeepMD_2DLepIso__EvntW_14-Jun-21.root
+[243.7kB/243.7kB][100%][==================================================][243.7kB/s]  [243.7kB/243.7kB][100%][==================================================][243.7kB/s]  

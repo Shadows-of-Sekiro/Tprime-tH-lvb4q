@@ -1,0 +1,59 @@
+Starting job on  Thu Jul 8 09:33:35 CEST 2021
+Running on: Linux b7s12n3450.cern.ch 3.10.0-1160.6.1.el7.x86_64 #1 SMP Tue Nov 17 13:59:11 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+System software: CentOS Linux release 7.9.2009 (Core) 
+PWD: /pool/condor/dir_17575
+Resetting caches
+Done: ProjectRename
+Arjun_skim.py
+Condor_Job_Submit_UL_NANO_BkG.jdl
+Condor_Job_UL_NANO_BkG.sh
+DataUL17_Analyzer_NANO_AOD_with_LepJetClean.C
+DataUL17_Analyzer_NANO_AOD_with_LepJetClean.h
+Data_Condor_Job_Submit_UL_NANO_BkG.jdl
+Data_Condor_Job_UL_NANO_BkG.sh
+Data_jobsubmit_script
+Generate_PileUp_File_Using_TTbar.C
+MC_Analyzer_NANO_AOD.C
+MC_Analyzer_NANO_AOD.h
+MC_Condor_Job_Submit_UL_NANO_BkG.jdl
+MC_Condor_Job_UL_NANO_BkG.sh
+MC_jobsubmit_script
+NANOV2_GenPart_UL17_Analyzer.C
+NANO_AOD_Ntuple_Analyzer.h
+NewPT.txt
+PUPPI.exe
+PileUp_ScalefactorsUL2017_16Mar21.root
+PileUp_ScalefactorsUL2017_24Mar21.root
+PileUp_ScalefactorsUL2017_24Mar21_66.root
+PileUp_ScalefactorsUL2017_24Mar21_724.root
+Sample_Header.h
+TTbar_UL16_test.txt
+TTbar_test.txt
+UL17_Analyzer_NANO_AOD.C
+UL17_Analyzer_NANO_AOD.h
+UL17_Analyzer_NANO_AOD_with_LepJetClean.h
+UL17_Analyzer_NANO_AOD_with_LepJetClean_v1.h
+achhetri.cc
+crab.log
+jobsubmit_script
+out
+output_log
+run_cmnd
+============================================
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_48.root , Events= 6294  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_48.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_49.root , Events= 6376  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_49.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_5.root , Events= 11363  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_5.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_50.root , Events= 19286  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_50.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_51.root , Events= 19306  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_51.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_52.root , Events= 20748  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/ST_t-channel_top_4f_inclusiveDecays/210414_094734/0000/tree_52.root
+
+ For Sample = ST_t-channel_top_4f_inclusiveDecays   Xsections = 115300 && Events = 4.57541e+07
+
+ Factor for ../Analyzed_Files_Nano_AOD/UL17_Bkg/root_file_list/ST_t-channel_top_4f_inclusiveDecays_UL17_v2_8 is = 0.104655
+ Yo man It works
+ For Sample = ST_t-channel_top_4f_inclusiveDecays   Xsections = 115300 && Events = 4.57541e+07
+
+ Factor for ../Analyzed_Files_Nano_AOD/UL17_Bkg/root_file_list/ST_t-channel_top_4f_inclusiveDecays_UL17_v2_8 is = 0.104655
+ Yo man It worksPWD: /pool/condor/dir_17575/CMSSW_10_6_8/src/Phase_III_Analysis_with_NanoAOD/NANO_AOD_Analyzer
+====> List output files : 
+Thu Jul  8 09:34:28 CEST 2021

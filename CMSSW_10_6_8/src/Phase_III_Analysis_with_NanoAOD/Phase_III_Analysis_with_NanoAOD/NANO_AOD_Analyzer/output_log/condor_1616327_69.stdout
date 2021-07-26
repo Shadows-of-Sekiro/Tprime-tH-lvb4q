@@ -1,0 +1,59 @@
+Starting job on  Thu Jul 8 09:32:10 CEST 2021
+Running on: Linux b7s02p4192.cern.ch 3.10.0-1160.31.1.el7.x86_64 #1 SMP Thu Jun 10 13:32:12 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+System software: CentOS Linux release 7.9.2009 (Core) 
+PWD: /pool/condor/dir_37609
+Resetting caches
+Done: ProjectRename
+Arjun_skim.py
+Condor_Job_Submit_UL_NANO_BkG.jdl
+Condor_Job_UL_NANO_BkG.sh
+DataUL17_Analyzer_NANO_AOD_with_LepJetClean.C
+DataUL17_Analyzer_NANO_AOD_with_LepJetClean.h
+Data_Condor_Job_Submit_UL_NANO_BkG.jdl
+Data_Condor_Job_UL_NANO_BkG.sh
+Data_jobsubmit_script
+Generate_PileUp_File_Using_TTbar.C
+MC_Analyzer_NANO_AOD.C
+MC_Analyzer_NANO_AOD.h
+MC_Condor_Job_Submit_UL_NANO_BkG.jdl
+MC_Condor_Job_UL_NANO_BkG.sh
+MC_jobsubmit_script
+NANOV2_GenPart_UL17_Analyzer.C
+NANO_AOD_Ntuple_Analyzer.h
+NewPT.txt
+PUPPI.exe
+PileUp_ScalefactorsUL2017_16Mar21.root
+PileUp_ScalefactorsUL2017_24Mar21.root
+PileUp_ScalefactorsUL2017_24Mar21_66.root
+PileUp_ScalefactorsUL2017_24Mar21_724.root
+Sample_Header.h
+TTbar_UL16_test.txt
+TTbar_test.txt
+UL17_Analyzer_NANO_AOD.C
+UL17_Analyzer_NANO_AOD.h
+UL17_Analyzer_NANO_AOD_with_LepJetClean.h
+UL17_Analyzer_NANO_AOD_with_LepJetClean_v1.h
+achhetri.cc
+crab.log
+jobsubmit_script
+out
+output_log
+run_cmnd
+============================================
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_1.root , Events= 39824  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_1.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_10.root , Events= 49970  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_10.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_11.root , Events= 98308  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_11.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_12.root , Events= 146116  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_12.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_13.root , Events= 195765  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_13.root
+ FileName =/eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_14.root , Events= 241716  file= /eos/user/a/achhetri/Tprime_v5_NANo_AOD_106X/QCD_Pt-170to300_MuEnrichedPt5_TuneCP5_13TeV_pythia8/QCD_Pt170to300_v2/210310_183108/0000/tree_14.root
+
+ For Sample = QCD_Pt-170_MuEnr   Xsections = 6.903e+06 && Events = 3.69188e+07
+
+ Factor for ../Analyzed_Files_Nano_AOD/UL17_Bkg/root_file_list/QCD_Pt-170_MuEnr_UL17_v2_1 is = 7.7652
+ Yo man It works
+ For Sample = QCD_Pt-170_MuEnr   Xsections = 6.903e+06 && Events = 3.69188e+07
+
+ Factor for ../Analyzed_Files_Nano_AOD/UL17_Bkg/root_file_list/QCD_Pt-170_MuEnr_UL17_v2_1 is = 7.7652
+ Yo man It worksPWD: /pool/condor/dir_37609/CMSSW_10_6_8/src/Phase_III_Analysis_with_NanoAOD/NANO_AOD_Analyzer
+====> List output files : 
+Thu Jul  8 09:35:04 CEST 2021
